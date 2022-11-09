@@ -5,12 +5,12 @@
 # Cadet Innercircle Projects
 
 
-|Project|Circle|Language|Start date.|End Date.|Status|
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|[Libft](https://github.com/h-beeen/42cursus/tree/master/libft)|Zero|C|||:high_brightness:|
-|get_next_line|One|C|||:x:|
-|ft_printf|One|C|||:x:|
-|Born2beroot|One|C|||:x:|
+|No.|Project|Circle|Lang.|Srt date.|End Date.|Status|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|01|[Libft](https://github.com/h-beeen/42cursus/tree/master/libft)|Zero|C|2022. 11. 09||:high_brightness:|
+|02|get_next_line|One|C|||:x:|
+|03|ft_printf|One|C|||:x:|
+|04|Born2beroot|One|C|||:x:|
 </br>
 
 ---
