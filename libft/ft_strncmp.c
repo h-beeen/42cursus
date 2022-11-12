@@ -1,19 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/10 16:47:08 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/10 22:17:47 by hbyeon           ###   ########.fr       */
+/*   Created: 2022/11/10 22:10:42 by hbyeon            #+#    #+#             */
+/*   Updated: 2022/11/10 22:28:06 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalpha(int c)
+#include <unistd.h>
+
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	if (c >= 65 && c <= 90 || c >= 97 && c <= 122)
-		return (1);
-	else
-		return (0);
+	size_t	i;
+
+	i = 0;
+	while ((s1[i] != '\0' || s2[i] != '\0') && i < n)
+	{
+		if (s1[i] > s2[i])
+			return (1);
+		if (s1[i] < s2[i])
+			return (-1);
+		else
+			i++;
+	}
+	return (0);
 }
