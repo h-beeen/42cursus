@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 20:27:54 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/16 22:39:02 by hbyeon           ###   ########.fr       */
+/*   Updated: 2022/11/16 23:27:09 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ size_t	ft_strlen(const char *s);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
+void	*ft_memcpy(void *dst, const void *src, size_t n);
 void	ft_bzero(void *s, size_t n);
 int		ft_atoi(const char *str);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
