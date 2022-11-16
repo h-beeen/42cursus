@@ -6,15 +6,18 @@
 #    By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/12 20:13:43 by hbyeon            #+#    #+#              #
-#    Updated: 2022/11/15 16:17:47 by hbyeon           ###   ########.fr        #
+#    Updated: 2022/11/16 09:03:58 by hbyeon           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 SRCS = *.c
 
-OBJS = ${SRCS:.c=.o}
-
+OBJS = ft_isalpha.o ft_isdigit.o ft_isalnum.o ft_isascii.o\
+	   ft_isprint.o ft_strlen.o ft_tolower.o ft_toupper.o\
+	   ft_strchr.o ft_strncmp.o ft_strlcpy.o ft_bzero.o\
+	   ft_atoi.o ft_strlcat.o\
+	   
 CC = gcc
 RM = rm -f
 CFLAGS = -Wall -Wextra -Werror
