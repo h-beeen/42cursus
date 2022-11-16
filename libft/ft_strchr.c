@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 20:04:00 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/16 15:46:03 by hbyeon           ###   ########.fr       */
+/*   Updated: 2022/11/16 22:51:44 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,18 +14,16 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-	int	i;
+	unsigned char	temp;
 
-	i = 0;
-	while (!s[i])
+	temp = c;
+	while (*s)
 	{
-		if (s[i] == c)
-		{
-			while (i--)
-				s++;
+		if (*s == temp)
 			return ((char *) s);
-		}
-		i++;
+		s++;
 	}
-	return (0);
+	if (temp == 0)
+		return ((char *) s);
+	return ((void *) 0);
 }

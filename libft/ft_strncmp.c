@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/10 22:10:42 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/16 15:23:57 by hbyeon           ###   ########.fr       */
+/*   Updated: 2022/11/16 22:57:01 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,24 @@
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	size_t	i;
+	size_t			i;
+	unsigned char	a;
+	unsigned char	b;
 
 	i = 0;
-	while ((s1[i] != '\0' || s2[i] != '\0') && i < n)
+	a = s1[i];
+	b = s2[i];
+	while (s1[i] && s2[i] && i < n)
 	{
-		if (s1[i] > s2[i])
-			return (1);
-		if (s1[i] < s2[i])
-			return (-1);
-		else
-			i++;
+		a = s1[i];
+		b = s2[i];
+		if (a != b)
+			break ;
+		i++;
 	}
-	return (0);
+	if (i == n)
+		return (0);
+		a = s1[i];
+		b = s2[i];
+	return (a - b);
 }

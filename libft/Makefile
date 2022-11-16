@@ -6,7 +6,7 @@
 #    By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/12 20:13:43 by hbyeon            #+#    #+#              #
-#    Updated: 2022/11/16 19:44:21 by hbyeon           ###   ########.fr        #
+#    Updated: 2022/11/16 22:36:26 by hbyeon           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,8 @@ SRCS = *.c
 OBJS = ft_isalpha.o ft_isdigit.o ft_isalnum.o ft_isascii.o\
 	   ft_isprint.o ft_strlen.o ft_tolower.o ft_toupper.o\
 	   ft_strchr.o ft_strncmp.o ft_strlcpy.o ft_bzero.o\
-	   ft_atoi.o ft_strlcat.o ft_memset.o\
+	   ft_atoi.o ft_strlcat.o ft_memset.o ft_strnstr.o\
+	   ft_strncmp.o
 	   
 CC = gcc
 RM = rm -f
