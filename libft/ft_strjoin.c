@@ -1,32 +1,43 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/16 15:55:27 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/16 23:37:55 by hbyeon           ###   ########.fr       */
+/*   Created: 2022/11/17 03:46:15 by hbyeon            #+#    #+#             */
+/*   Updated: 2022/11/17 05:45:17 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memcpy(void *dst, const void *src, size_t n)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
-	size_t				i;
-	unsigned char		*temp1;
-	unsigned char		*temp2;
+	unsigned int	s1_len;
+	unsigned int	s2_len;
+	unsigned int	j;
+	unsigned int	i;
+	char			*ptr;
 
 	i = 0;
-	temp1 = (unsigned char *)dst;
-	temp2 = (unsigned char *)src;
-	if (temp1 == 0 && temp2 == 0)
+	j = 0;
+	s1_len = ft_strlen(s1);
+	s2_len = ft_strlen(s2);
+	ptr = (char *)malloc ((sizeof(char)) * (s1_len + s2_len + 1));
+	if (!ptr)
 		return (0);
-	while (i < n)
+	while (!s1[i])
 	{
-		temp1[i] = temp2[i];
+		ptr[i] = s1[i];
 		i++;
 	}
-	return ((void *) temp1);
+	while (!s2[j])
+	{
+		ptr[i] = s2[j];
+		i++;
+		j++;
+	}
+	ptr[i] = '\0';
+	return (ptr);
 }

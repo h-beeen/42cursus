@@ -1,36 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/16 08:49:46 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/17 06:00:31 by hbyeon           ###   ########.fr       */
+/*   Created: 2022/11/12 20:04:00 by hbyeon            #+#    #+#             */
+/*   Updated: 2022/11/17 01:01:44 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcat(char *dst, const char *src, size_t size)
+char	*ft_strrchr(const char *s, int c)
 {
-	size_t	j;
-	size_t	src_len;
-	size_t	dst_len;
+	unsigned char	temp;
+	const char		*temp2;
 
-	j = 0;
-	src_len = ft_strlen(src);
-	dst_len = ft_strlen(dst);
-	if (size <= dst_len)
-		return (size + src_len);
-	else
+	temp = c;
+	temp2 = 0;
+	while (*s)
 	{
-		while (src[j] != '\0' && (dst_len + j + 1 < size))
-		{	
-			dst[dst_len + j] = src[j];
-			j++;
-		}
-		dst[dst_len + j] = '\0';
+		if (*s == temp)
+			temp2 = s;
+		s++;
 	}
-	return (src_len + dst_len);
+	if (temp == 0)
+		return ((char *) s);
+	return ((char *) temp2);
 }

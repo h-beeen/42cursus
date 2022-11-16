@@ -1,36 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/16 08:49:46 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/17 06:00:31 by hbyeon           ###   ########.fr       */
+/*   Created: 2022/11/17 01:04:23 by hbyeon            #+#    #+#             */
+/*   Updated: 2022/11/17 01:04:58 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcat(char *dst, const char *src, size_t size)
+void	*ft_memmove(void *dst, const void *src, size_t len)
 {
-	size_t	j;
-	size_t	src_len;
-	size_t	dst_len;
+	size_t				i;
+	unsigned char		*temp1;
+	unsigned char		*temp2;
 
-	j = 0;
-	src_len = ft_strlen(src);
-	dst_len = ft_strlen(dst);
-	if (size <= dst_len)
-		return (size + src_len);
-	else
+	i = 0;
+	temp1 = (unsigned char *)dst;
+	temp2 = (unsigned char *)src;
+	if (temp1 == 0 && temp2 == 0)
+		return (0);
+	while (i < len)
 	{
-		while (src[j] != '\0' && (dst_len + j + 1 < size))
-		{	
-			dst[dst_len + j] = src[j];
-			j++;
-		}
-		dst[dst_len + j] = '\0';
+		temp1[i] = temp2[i];
+		i++;
 	}
-	return (src_len + dst_len);
+	return ((void *) temp1);
 }
