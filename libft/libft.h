@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 20:27:54 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/17 06:05:10 by hbyeon           ###   ########.fr       */
+/*   Updated: 2022/11/20 00:15:40 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,5 +38,9 @@ void	*ft_calloc(size_t count, size_t size);
 char	*ft_strdup(const char *s1);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
+void	*ft_memmove(void *dst, const void *src, size_t len);
+void	*ft_memcpy(void *dst, const void *src, size_t len);
+void	*ft_memchr(const void *s, int c, size_t n);
+int		ft_memcmp(const void *s1, const void *s2, size_t n);
 
 #endif
