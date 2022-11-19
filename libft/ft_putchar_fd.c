@@ -6,7 +6,13 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 04:22:11 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/20 04:22:12 by hbyeon           ###   ########.fr       */
+/*   Updated: 2022/11/20 04:43:06 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+void	ft_putchar_fd(char s, int fd)
+{
+	write(fd, &s, 1);
+}

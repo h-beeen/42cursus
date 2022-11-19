@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/15 23:43:26 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/20 01:35:16 by hbyeon           ###   ########.fr       */
+/*   Updated: 2022/11/20 04:33:30 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_atoi(const char *str)
 {
-	int			sign;
+	long long	sign;
 	long long	temp;
 	long long	result;
 
