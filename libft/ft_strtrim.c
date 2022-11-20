@@ -1,40 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_substr.c                                        :+:      :+:    :+:   */
+/*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/17 02:25:00 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/20 06:07:53 by hbyeon           ###   ########.fr       */
+/*   Created: 2022/11/20 05:20:35 by hbyeon            #+#    #+#             */
+/*   Updated: 2022/11/20 06:32:22 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_substr(char const *s, unsigned int start, size_t len)
+char	*ft_strtrim(char const *s1, char const *set)
 {
-	char	*ptr;
-	size_t	s_len;
-	size_t	i;
-	size_t	length;
+	unsigned int	i;
+	unsigned int	len;
+	char			*temp;
 
 	i = 0;
-	s_len = ft_strlen(s);
-	if (!s)
+	len = ft_strlen(s1);
+	if (!len)
+		return (ft_strdup(s1));
+	while (s1[i] && ft_strchr(set, s1[i]))
+		i++;
+	while (s1[len - 1] && ft_strchr(set, s1[len - 1]) && len >= 2)
+		len--;
+	if (i > len)
+		return (ft_strdup(""));
+	temp = (char *)malloc(sizeof(char) * (len - i + 1));
+	if (!temp)
 		return (0);
-	if (s_len <= start)
-	{
-		start = 0;
-		length = 1;
-	}
-	else if (len > s_len - start)
-		length = s_len - start + 1;
-	else
-		length = len + 1;
-	ptr = (char *)malloc(sizeof(char) * length);
-	if (!ptr)
-		return (0);
-	ft_strlcpy (ptr, s + start, length);
-	return (ptr);
+	ft_strlcpy(temp, s1 + i, len - i + 1);
+	return (temp);
 }

@@ -6,7 +6,7 @@
 #    By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/12 20:13:43 by hbyeon            #+#    #+#              #
-#    Updated: 2022/11/20 04:59:24 by hbyeon           ###   ########.fr        #
+#    Updated: 2022/11/20 16:28:24 by hbyeon           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,8 @@ OBJS = ft_isalpha.o ft_isdigit.o ft_isalnum.o ft_isascii.o\
 	   ft_substr.o ft_strjoin.o ft_memmove.o ft_memcpy.o\
 	   ft_memchr.o ft_memcmp.o ft_itoa.o ft_strmapi.o\
 	   ft_striteri.o ft_putchar_fd.o ft_putstr_fd.o\
-	   ft_putendl_fd.o ft_putnbr_fd.o
+	   ft_putendl_fd.o ft_putnbr_fd.o ft_strtrim.o\
+	   ft_split.o
 	   
 CC = gcc
 RM = rm -f
