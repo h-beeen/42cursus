@@ -3,34 +3,35 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
+/*   By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 06:44:55 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/20 17:40:57 by hbyeon           ###   ########.fr       */
+/*   Updated: 2022/11/20 19:43:02 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_wordcount(char *s, char c)
+size_t	ft_wordcount(char const *s, char c)
 {
 	int	cnt;
 	int	i;
 
 	cnt = 0;
 	i = 0;
-	while (s[i] != c)
+while (s[i])
+{
+	while (s[i] == c && s[i])
 		i++;
-	while (s[i])
-	{
-		if (s[i] == c && s[i + 1] != c)
-			cnt++;
+	if (s[i])
+		cnt++;
+	while (s[i] != c && s[i])
 		i++;
-	}
+}
 	return (cnt);
 }
 
-void	ft_writesplit(char **temp, char *s, char set)
+void	ft_writesplit(char **temp, char const *s, char set)
 {
 	int	i;
 	int	j;
@@ -46,8 +47,8 @@ void	ft_writesplit(char **temp, char *s, char set)
 		while (s[i + j] != set && s[i + j])
 			j++;
 		temp[words] = (char *)malloc(sizeof(char) * j + 1);
-		ft_strlcpy(temp[words], s + i, j);
-		i = i + j + 1;
+		ft_strlcpy(temp[words], s + i, j + 1);
+		i += j;
 		words++;
 	}
 }
@@ -68,15 +69,16 @@ char	**ft_split(char const *s, char c)
 	return (temp);
 }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main (void)
-{
-	char	*res;
-	char	**temp;
+// int main (void)
+// {
+// 	char	*res;
+// 	char	**temp;
+// int i = 0;
 
-	res = "a!bb!ccc";
-	temp = ft_split(res, '!');
-	for(int i = 0; i < 3; i++)
-		printf("%s", temp[i]);
-}
+// 	res = "!!!a!b!b!cccccc!cdc!\0";
+// 	temp = ft_split(res, '!');
+// while(temp[i])
+// 		printf("%s\n", temp[i++]);
+// }
