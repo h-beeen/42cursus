@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/22 09:02:00 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/22 09:18:03 by hbyeon           ###   ########.fr       */
+/*   Updated: 2022/11/23 08:51:59 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ static int	ft_wordcount(char const *s, char c)
 	return (cnt);
 }
 
-static char	*ft_word_make(char *word, char const *s, int j, int word_len)
+static char	*ft_wordsplit(char *word, char const *s, int j, int word_len)
 {
 	int		i;
 
@@ -73,7 +73,7 @@ static char	**ft_split2(char **res, char const *s, char c, int word_count)
 			ft_freeall(res, i);
 			return (0);
 		}
-		ft_word_make(res[i], s, j, word_len);
+		ft_wordsplit(res[i], s, j, word_len);
 		word_len = 0;
 		i++;
 	}

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
+/*   By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 01:04:23 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/19 21:57:10 by hbyeon           ###   ########.fr       */
+/*   Updated: 2022/11/23 08:50:41 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,11 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 
 	temp1 = (unsigned char *)dst;
 	temp2 = (unsigned char *)src;
+	i = 0;
 	if (temp1 == 0 && temp2 == 0)
 		return (0);
-	if (dst <= src)
+	if (dst < src)
 	{
-		i = 0;
 		while (i < len)
 		{
 			temp1[i] = temp2[i];
@@ -32,7 +32,12 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 		}
 	}
 	else
-		while (len--)
-			temp1[len] = temp2[len];
+	{
+		while (i < len)
+		{
+			temp1[len - i - 1] = temp2[len - i - 1];
+			i++;
+		}
+	}
 	return ((void *) temp1);
 }
