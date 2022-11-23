@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/22 09:02:00 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/23 09:30:24 by hbyeon           ###   ########.fr       */
+/*   Updated: 2022/11/23 11:35:44 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,24 +51,21 @@ static void	ft_freeall(char **res, int i)
 	free (res);
 }
 
-static char	**ft_split2(char **res, char const *s, char c, int word_count)
+static char	**ft_split2(char **res, char const *s, char c, int wc)
 {
+	int		word_len;
 	int		i;
 	int		j;
-	int		word_len;
 
 	i = 0;
 	j = 0;
 	word_len = 0;
-	while (s[j] && i < word_count)
+	while (s[j] && i < wc)
 	{
 		while (s[j] && s[j] == c)
 			j++;
-		while (s[j] && s[j] != c)
-		{
-			j++;
+		while (s[j] && s[j] != c && s[j++])
 			word_len++;
-		}
 		res[i] = (char *)malloc(sizeof(char) * (word_len + 1));
 		if (!res[i])
 		{
@@ -84,16 +81,16 @@ static char	**ft_split2(char **res, char const *s, char c, int word_count)
 
 char	**ft_split(char const *s, char c)
 {
-	int		word_count;
+	int		wc;
 	char	**res;
 
 	if (s == 0)
 		return (0);
-	word_count = ft_wordcount(s, c);
-	res = (char **)malloc(sizeof(char *) * (word_count + 1));
+	wc = ft_wordcount(s, c);
+	res = (char **)malloc(sizeof(char *) * (wc + 1));
 	if (!res)
 		return (0);
-	if (!ft_split2(res, s, c, word_count))
+	if (!ft_split2(res, s, c, wc))
 		return (0);
 	return (res);
 }
