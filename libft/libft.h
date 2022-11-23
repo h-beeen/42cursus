@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 20:27:54 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/23 11:57:31 by hbyeon           ###   ########.fr       */
+/*   Updated: 2022/11/23 12:55:35 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,5 +60,7 @@ char	**ft_split(char const *s, char c);
 t_list	*ft_lstnew(void *content);
 void	*ft_lstadd_front(t_list **lst, t_list *new);
 int		ft_lstsize(t_list *lst);
+t_list	*ft_lstlast(t_list *lst);
+void	*ft_lstadd_back(t_list **lst, t_list *new);
 
 #endif

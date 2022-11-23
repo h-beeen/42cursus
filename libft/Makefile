@@ -6,7 +6,7 @@
 #    By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/23 10:07:33 by hbyeon            #+#    #+#              #
-#    Updated: 2022/11/23 12:00:39 by hbyeon           ###   ########.fr        #
+#    Updated: 2022/11/23 12:55:55 by hbyeon           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,9 +24,10 @@ SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c\
 	   ft_memchr.c ft_memcmp.c ft_itoa.c ft_strmapi.c\
 	   ft_striteri.c ft_putchar_fd.c ft_putstr_fd.c\
 	   ft_putendl_fd.c ft_putnbr_fd.c ft_strtrim.c\
-	   ft_split.c
+	   ft_split.c ft_lstadd_back.c
 	   
 SRCS_2 = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c\
+		 ft_lstlast.c
 
 OBJS = $(SRCS:.c=.o)
 
