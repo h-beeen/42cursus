@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/22 09:02:00 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/23 08:51:59 by hbyeon           ###   ########.fr       */
+/*   Updated: 2022/11/23 09:30:24 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,8 +44,10 @@ static char	*ft_wordsplit(char *word, char const *s, int j, int word_len)
 
 static void	ft_freeall(char **res, int i)
 {
-	while (i--)
-		free (res[i]);
+	if (i == 0)
+		free(res[i]);
+	while (i)
+		free (res[--i]);
 	free (res);
 }
 
@@ -73,9 +75,8 @@ static char	**ft_split2(char **res, char const *s, char c, int word_count)
 			ft_freeall(res, i);
 			return (0);
 		}
-		ft_wordsplit(res[i], s, j, word_len);
+		ft_wordsplit(res[i++], s, j, word_len);
 		word_len = 0;
-		i++;
 	}
 	res[i] = 0;
 	return (res);
@@ -92,6 +93,7 @@ char	**ft_split(char const *s, char c)
 	res = (char **)malloc(sizeof(char *) * (word_count + 1));
 	if (!res)
 		return (0);
-	ft_split2(res, s, c, word_count);
+	if (!ft_split2(res, s, c, word_count))
+		return (0);
 	return (res);
 }
