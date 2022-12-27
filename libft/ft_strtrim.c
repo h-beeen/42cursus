@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 05:20:35 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/20 06:32:22 by hbyeon           ###   ########.fr       */
+/*   Updated: 2022/11/24 18:08:18 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,10 @@ char	*ft_strtrim(char const *s1, char const *set)
 	unsigned int	len;
 	char			*temp;
 
+	if (!s1)
+		return (0);
+	if (!set)
+		return (ft_strdup(""));
 	i = 0;
 	len = ft_strlen(s1);
 	if (!len)

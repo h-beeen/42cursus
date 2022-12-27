@@ -1,38 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_substr.c                                        :+:      :+:    :+:   */
+/*   ft_lstadd_back_bonus.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/17 02:25:00 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/22 08:49:17 by hbyeon           ###   ########.fr       */
+/*   Created: 2022/11/23 12:50:55 by hbyeon            #+#    #+#             */
+/*   Updated: 2022/11/23 22:20:58 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_substr(char const *s, unsigned int start, size_t len)
+void	*ft_lstadd_back(t_list **lst, t_list *new)
 {
-	char	*ptr;
-	size_t	s_len;
-	size_t	length;
+	t_list	*temp;
 
-	s_len = ft_strlen(s);
-	if (!s)
-		return (0);
-	if (s_len <= start)
+	temp = *lst;
+	if (*lst == 0 && new)
 	{
-		start = 0;
-		length = 1;
-	}
-	else if (len > s_len - start)
-		length = s_len - start + 1;
-	else
-		length = len + 1;
-	ptr = (char *)malloc(sizeof(char) * length);
-	if (!ptr)
+		*lst = new;
 		return (0);
-	ft_strlcpy (ptr, s + start, length);
-	return (ptr);
+	}
+	else if (!lst || !new)
+		return (0);
+	while ((*lst)->next)
+		*lst = (*lst)->next;
+	(*lst)->next = new;
+	*lst = temp;
+	return (temp);
 }
