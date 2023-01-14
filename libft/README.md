@@ -1,5 +1,5 @@
 <div align=center >
-<h1>ft_printf</h1>
+<h1>libft</h1>
 <a href="https://github.com/h-beeen/42cursus/tree/master/libft"><img src="https://github.com/h-beeen/42cursus/blob/master/srcs/libftm.png"></a>
 </div>
 
