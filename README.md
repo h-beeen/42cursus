@@ -1,4 +1,4 @@
-### 42 School Projects
+### 42Seoul Cadet Projects
 <div align="center">
 
 <a href="https://github.com/h-beeen/42cursus/tree/master/libft"><img src="https://github.com/h-beeen/42cursus/blob/master/srcs/libftm.png"></a>
