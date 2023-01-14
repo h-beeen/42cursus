@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 04:22:11 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/14 17:33:02 by hbyeon           ###   ########.fr       */
+/*   Updated: 2023/01/14 21:16:39 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,49 +14,54 @@
 
 int	ft_putchar(char c)
 {
-	return (write(1, &c, sizeof(char) * 1));
+	return (write(1, &c, 1));
 }
 
-int	ft_strlen(char *s)
-{
-	int	i;
-
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
-}
-
-void	ft_putstr(char *s)
+int	ft_putstr(char *s)
 {
 	int	i;
 
 	i = -1;
 	while (s[++i])
-		write(1, &s[i], 1);
+	{
+		if (write(1, &s[i], 1) < 0)
+			return (-1);
+	}
+	return (i);
 }
 
-void	ft_putnbr(int n)
+int	ft_putnbr(int n, int *cnt)
 {
-	if (n == -2147483648)
+	long long	temp;
+
+	temp = (long long) n;
+	if (temp < 0)
 	{
-		write(1, "-2147483648", 11);
-		return ;
-	}
-	else if (n < 0)
-	{
-		n = n * -1;
+		temp = temp * -1;
 		ft_putchar('-');
+		cnt++;
 	}
-	if (n >= 10)
-	{
-		ft_putnbr(n / 10);
-	}
-	ft_putchar(n % 10 + 48);
+	if (temp >= 10)
+		ft_putnbr(temp / 10, cnt);
+	ft_putchar(temp % 10 + 48);
+	*cnt += 1;
+	return (*cnt);
 }
 
-#include <stdio.h>
-int	main(void)
+int ft_puthex(unsigned long long hex)
 {
-	printf("%d", ft_strlen("dasafsafs"));
+	char	*base;
+	char	*base_2;
+
+	base = "0123456789abcdef";
+	base = "0123456789ABCDEF";
+	if (nb < 16 && prev == 1) 
+		ft_putchar_size('0', 1);
+	if (nb >= 16)
+	{ 
+		ft_hex(nb / 16, 0);
+		ft_hex(nb % 16, 0);
+	}
+	else
+		ft_putchar_size(base[nb], 1);
 }
