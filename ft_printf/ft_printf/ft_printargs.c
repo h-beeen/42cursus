@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 04:22:11 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/14 21:16:39 by hbyeon           ###   ########.fr       */
+/*   Updated: 2023/01/14 21:35:29 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,8 @@ int	ft_putstr(char *s)
 	int	i;
 
 	i = -1;
+	if (s == NULL)
+		return (write(1, "(null)", 6));
 	while (s[++i])
 	{
 		if (write(1, &s[i], 1) < 0)
@@ -46,22 +48,4 @@ int	ft_putnbr(int n, int *cnt)
 	ft_putchar(temp % 10 + 48);
 	*cnt += 1;
 	return (*cnt);
-}
-
-int ft_puthex(unsigned long long hex)
-{
-	char	*base;
-	char	*base_2;
-
-	base = "0123456789abcdef";
-	base = "0123456789ABCDEF";
-	if (nb < 16 && prev == 1) 
-		ft_putchar_size('0', 1);
-	if (nb >= 16)
-	{ 
-		ft_hex(nb / 16, 0);
-		ft_hex(nb % 16, 0);
-	}
-	else
-		ft_putchar_size(base[nb], 1);
 }

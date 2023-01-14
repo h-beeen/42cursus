@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/14 13:20:06 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/14 21:18:55 by hbyeon           ###   ########.fr       */
+/*   Updated: 2023/01/14 21:44:12 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,13 +51,4 @@ int	ft_printf(const char *form, ...)
 	}
 	va_end(ap);
 	return (result);
-}
-
-#include <stdio.h>
-
-int main(void)
-{
-	printf("%%369\n");
-	ft_printf("%%369");
-	return (0);
 }
