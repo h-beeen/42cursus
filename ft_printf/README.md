@@ -3,8 +3,6 @@
 <a href="https://github.com/h-beeen/42cursus/tree/master/ft_printf"><img src="https://github.com/h-beeen/42cursus/blob/master/srcs/ft_printfm.png"></a>
 </div>
 
----
-
 <br/>
 
 
