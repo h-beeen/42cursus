@@ -1,22 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+        */
+/*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/20 16:09:38 by hbyeon            #+#    #+#             */
-/*   Updated: 2022/11/23 22:37:24 by hbyeon           ###   ########.fr       */
+/*   Created: 2022/11/10 22:00:10 by hbyeon            #+#    #+#             */
+/*   Updated: 2023/01/14 14:20:31 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 
-void	*ft_lstadd_front(t_list **lst, t_list *new)
+
+size_t	ft_strlen(const char *s)
 {
-	if (!lst || !new)
-		return (0);
-	new -> next = *lst;
-	*lst = new;
-	return (new);
+	size_t	i;
+
+	i = 0;
+	while (s[i])
+		i++;
+	return (i);
 }

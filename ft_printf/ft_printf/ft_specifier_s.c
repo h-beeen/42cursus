@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/14 13:24:38 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/14 13:29:42 by hbyeon           ###   ########.fr       */
+/*   Updated: 2023/01/14 14:15:30 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	ft_argument_s(char *string)
 {
 	if (string == NULL)
-		return (write(1, "(null)", sizeof(char) * 6));
+		return (write(1, "(null)", 6));
 	ft_putstr_fd(string, 1);
 	return (ft_strlen(string));
 }
