@@ -6,7 +6,7 @@
 #    By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/23 10:07:33 by hbyeon            #+#    #+#              #
-#    Updated: 2023/01/14 21:43:17 by hbyeon           ###   ########.fr        #
+#    Updated: 2023/01/17 16:07:19 by hbyeon           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,11 +20,7 @@ CFLAGS = -c -Wall -Wextra -Werror
 AR = ar -rcs
 RM = rm -f
 
-
 all :		$(NAME)
-
-bonus :
-			make BONUS=1 all
 
 $(NAME) :	$(OBJS)
 			$(AR) $(NAME) $(OBJS)
