@@ -6,11 +6,11 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/14 13:20:06 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/14 21:44:12 by hbyeon           ###   ########.fr       */
+/*   Updated: 2023/01/14 22:22:51 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// 구현 : c, s, p, d ,i, u, x, X, %
+// 구현 :, p, u, x, X
 
 #include "ft_printf.h"
 
@@ -27,6 +27,8 @@ int	ft_specifier(va_list ap, const char *form)
 		return (ft_putnbr(va_arg(ap, int), &cnt));
 	if (*form == '%')
 		return (ft_putchar('%'));
+	if (*form == 'x' || *form == 'X')
+		return (ft_putchar('%'));
 	else
 		return (-1);
 }
@@ -34,20 +36,25 @@ int	ft_specifier(va_list ap, const char *form)
 int	ft_printf(const char *form, ...)
 {
 	int			result;
+	int			len;
 	va_list		ap;
 
 	result = 0;
+	len = 0;
 	va_start(ap, form);
 	while (*form)
 	{
 		if (*form == '%')
 		{
-			ft_specifier(ap, form + 1);
-			form++;
+			len = ft_specifier(ap, form + 1);
+			form += 2;
 		}
 		else
-			ft_putchar(*form);
-		form++;
+			len = write(1, form++, 1);
+		if (len >= 0)
+			result += len;
+		else
+			return (-1);
 	}
 	va_end(ap);
 	return (result);

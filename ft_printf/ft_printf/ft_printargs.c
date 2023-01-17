@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 04:22:11 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/14 21:51:19 by hbyeon           ###   ########.fr       */
+/*   Updated: 2023/01/14 22:32:47 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,12 +40,14 @@ int	ft_putnbr(int n, int *cnt)
 	if (temp < 0)
 	{
 		temp = temp * -1;
-		ft_putchar('-');
-		cnt++;
+		if (ft_putchar('-') < 0)
+			return (-1);
+		*cnt += 1;
 	}
-	if (temp >= 10)
+	if (temp >= 10)  
 		ft_putnbr(temp / 10, cnt);
-	ft_putchar(temp % 10 + 48);
+	if (ft_putchar(temp % 10 + 48) < 0)
+		return (-1);
 	*cnt += 1;
 	return (*cnt);
 }
