@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/14 13:20:06 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/14 22:22:51 by hbyeon           ###   ########.fr       */
+/*   Updated: 2023/01/17 14:36:57 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	ft_specifier(va_list ap, const char *form)
 	if (*form == '%')
 		return (ft_putchar('%'));
 	if (*form == 'x' || *form == 'X')
-		return (ft_putchar('%'));
+		return (ft_itoabase(va_arg(ap, unsigned long long), *form, &cnt));
 	else
 		return (-1);
 }
@@ -58,4 +58,11 @@ int	ft_printf(const char *form, ...)
 	}
 	va_end(ap);
 	return (result);
+}
+
+#include <stdio.h>
+int main(void)
+{
+	ft_printf("ft_printf : %u\n", 2147384647);
+	printf("ft_printf : %u\n", 2147384647);
 }
