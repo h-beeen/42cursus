@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/14 13:20:06 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/17 17:46:55 by hbyeon           ###   ########.fr       */
+/*   Updated: 2023/01/17 18:01:55 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,10 +66,3 @@ int	ft_printf(const char *f, ...)
 	va_end(ap);
 	return (result);
 }
-
-// #include <stdio.h>
-// int main(void)
-// {
-// 	printf("ft_printf : (%d)\n", printf("%u", -6000023));
-// 	printf("ft_printf : (%d)", ft_printf("%u", -6000023));
-// }
