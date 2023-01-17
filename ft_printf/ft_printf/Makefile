@@ -6,12 +6,12 @@
 #    By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/23 10:07:33 by hbyeon            #+#    #+#              #
-#    Updated: 2023/01/17 16:07:19 by hbyeon           ###   ########.fr        #
+#    Updated: 2023/01/17 18:00:15 by hbyeon           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
-SRCS = ft_printf.c ft_printargs.c
+SRCS = ft_printf.c ft_util.c
 
 OBJS = $(SRCS:.c=.o)
 

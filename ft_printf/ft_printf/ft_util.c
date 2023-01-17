@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printargs.c                                     :+:      :+:    :+:   */
+/*   ft_util.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 04:22:11 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/17 17:27:59 by hbyeon           ###   ########.fr       */
+/*   Updated: 2023/01/17 17:58:53 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ int	ft_putstr(char *s)
 int	ft_putnbr(int n, int *cnt)
 {
 	long long	temp;
+	int			flag;
 
 	temp = (long long) n;
 	if (temp < 0)
@@ -45,7 +46,11 @@ int	ft_putnbr(int n, int *cnt)
 		*cnt += 1;
 	}
 	if (temp >= 10)
-		ft_putnbr(temp / 10, cnt);
+	{
+		flag = ft_putnbr(temp / 10, cnt);
+		if (flag == -1)
+			return (-1);
+	}
 	if (ft_putchar(temp % 10 + 48) < 0)
 		return (-1);
 	*cnt += 1;
@@ -54,25 +59,26 @@ int	ft_putnbr(int n, int *cnt)
 
 int	ft_sw(unsigned long long nb, char f, int *cnt)
 {
+	int	flag;
+
 	if (nb >= 16)
 	{
-		ft_sw(nb / 16, f, cnt);
-		ft_sw(nb % 16, f, cnt);
+		flag = ft_sw(nb / 16, f, cnt);
+		if (flag == -1)
+			return (-1);
+		flag = ft_sw(nb % 16, f, cnt);
+		if (flag == -1)
+			return (-1);
 	}
 	else
 	{
 		if (f == 'x' || f == 'p')
-		{
 			if (ft_putchar("0123456789abcdef"[nb]) < 0)
 				return (-1);
-			*cnt += 1;
-		}
 		if (f == 'X')
-		{
 			if (ft_putchar("0123456789ABCDEF"[nb]) < 0)
 				return (-1);
-			*cnt += 1;
-		}
+		*cnt += 1;
 	}
 	return (*cnt);
 }
@@ -80,6 +86,7 @@ int	ft_sw(unsigned long long nb, char f, int *cnt)
 int	ft_putunbr(unsigned int n, int *cnt)
 {
 	long long	temp;
+	int			flag;
 
 	temp = (long long) n;
 	if (temp < 0)
@@ -90,7 +97,11 @@ int	ft_putunbr(unsigned int n, int *cnt)
 		*cnt += 1;
 	}
 	if (temp >= 10)
-		ft_putunbr(temp / 10, cnt);
+	{
+		flag = ft_putunbr(temp / 10, cnt);
+		if (flag == -1)
+			return (-1);
+	}
 	if (ft_putchar(temp % 10 + 48) < 0)
 		return (-1);
 	*cnt += 1;
