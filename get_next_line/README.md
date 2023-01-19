@@ -1,6 +1,6 @@
 <div align=center >
 <h1>get_next_line</h1>
-<a href="https://github.com/h-beeen/42cursus/tree/master/get_next_line"><img src="https://github.com/h-beeen/42cursus/blob/master/srcs/get_next_linen.png"></a>
+<a href="https://github.com/h-beeen/42cursus/tree/master/get_next_line"><img src="https://github.com/h-beeen/42cursus/blob/master/srcs/get_next_linem.png"></a>
 </div>
 
 
