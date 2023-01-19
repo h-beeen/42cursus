@@ -1,6 +1,6 @@
 <div align=center >
 <h1>ft_printf</h1>
-<a href="https://github.com/h-beeen/42cursus/tree/master/ft_printf"><img src="https://github.com/h-beeen/42cursus/blob/master/srcs/ft_printfm.png"></a>
+<a href="https://github.com/h-beeen/42cursus/tree/master/ft_printf"><img src="https://user-images.githubusercontent.com/112257466/213344355-43c9c104-b71f-4e25-96ab-51bb15efcb74.png"></a>
 </div>
 
 <br/>
