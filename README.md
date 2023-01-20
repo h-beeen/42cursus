@@ -29,7 +29,7 @@
 <td align="center"><b>C99</b></td>
 <td align="center"><b>C99</b></td>
 <td align="center"><b>C99</b></td>
-<td align="center"><b>Shell, CLI</b></td>
+<td align="center"><b>Shell, CLI, VM</b></td>
 </tr>
 <tr>
 <td align="center"><b>Score</b> : 125%</td>
