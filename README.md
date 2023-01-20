@@ -1,7 +1,7 @@
 ### 
 <table align="center">
 
-<th align="center" colspan=3>42Seoul Cadet Projects</th>
+<th align="center" colspan=4>42Seoul Cadet Projects</th>
 </th>
 
 <!-- libft -->
@@ -9,7 +9,7 @@
 <td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/libft"><b>Libft</b></td>
 <td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/ft_printf"><b>ft_printf</b></td>
 <td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/get_next_line"><b>get_next_line</b></td>
-<td align="center">born2beroot<td>
+<td align="center">born2beroot</td>
 </tr>
 
 
