@@ -14,7 +14,7 @@
 <td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/libft"><b>Libft</b></td>
 <td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/ft_printf"><b>ft_printf</b></td>
 <td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/get_next_line"><b>get_next_line</b></td>
-<td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/Born2beroot">Born2beroot</td>
+<td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/Born2beroot"><b>Born2beroot</b></td>
 </tr>
 
 
