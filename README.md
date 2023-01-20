@@ -50,23 +50,23 @@
 
 
 <tr>
-<td align="center"><b>so_long</b></td>
+<td align="center" colspan=4><b>so_long</b></td>
 
 </tr>
 
 
 <tr>
-<td align ="center"><a href="https://github.com/h-beeen/42cursus/tree/master/so_long"><img src="https://user-images.githubusercontent.com/112257466/213670100-d03d61dc-9005-490f-a15e-8be0520c3b90.png" width="100px"></a></td>
+<td align ="center" colspan=4><a href="https://github.com/h-beeen/42cursus/tree/master/so_long"><img src="https://user-images.githubusercontent.com/112257466/213670100-d03d61dc-9005-490f-a15e-8be0520c3b90.png" width="100px"></a></td>
 
 
 </tr>
 <tr>
-<td align="center"><b>C99</b></td>
+<td align="center" colspan=4><b>C99</b></td>
 </tr>
 <tr>
-<td align="center"><b>Score</b> : :x:</td>
+<td align="center" colspan=4><b>Score</b> : :x:</td>
 </tr>
-<td align="center">:x:</td>
+<td align="center"  colspan=4>:x:</td>
 <tr/>
 
 </table>
