@@ -34,26 +34,24 @@
 <tr>
 <td align="center"><b>Score</b> : 125%</td>
 <td align="center"><b>Score</b> : 100%</td>
-<td align="center"><b>Score</b> : :x:</td>
-<td align="center"><b>Score</b> : :x:</td>
+<td align="center" rowspan=2>🏃‍♂️</td>
+<td align="center" rowspan=2>🏃‍♂️</td>
 </tr>
 <td align="center">~22. 11. 24</td>
 <td align="center">~23. 01. 20</td>
-<td align="center">Task In Going</td>
-<td align="center">Task In Going</td>
 <tr/>
 
 </tr>
 <td colspan=4></td>
 <tr/>
 
-<tr>
+<!-- <tr>
 <td align="center"><b>so_long</b></td>
 
-</tr>
+</tr> -->
 
 
-<tr>
+<!-- <tr>
 <td align ="center"><a href="https://github.com/h-beeen/42cursus/tree/master/so_long"><img src="https://user-images.githubusercontent.com/112257466/213670100-d03d61dc-9005-490f-a15e-8be0520c3b90.png" width="100px"></a><br/>Circle 2</td>
 
 
@@ -62,9 +60,7 @@
 <td align="center"><b>C99</b></td>
 </tr>
 <tr>
-<td align="center"><b>Score</b> : :x:</td>
-</tr>
-<td align="center">:x:</td>
-<tr/>
+<td align="center" rowspan=2>🏃‍♂️</td>
+</tr> -->
 
 </table>
