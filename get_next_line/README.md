@@ -3,7 +3,6 @@
 <a href="https://github.com/h-beeen/42cursus/tree/master/get_next_line"><img src="https://user-images.githubusercontent.com/112257466/213332345-c1755de6-ee52-4b60-b8aa-2c4c1bece0f4.png"></a>
 </div>
 
-
 ##### Reading a line on a fd is way too tedious
 
 fd에서 한 줄을 읽는다는 것은 너무나도 지루한 일입니다.

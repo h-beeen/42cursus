@@ -5,7 +5,6 @@
 
 <br/>
 
-
 ##### Summary: This document is a System Administration related exercise.
 
 요약 : 이 과제는 시스템(운영체제) 관리 관련 실습입니다.
