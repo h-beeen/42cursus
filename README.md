@@ -1,4 +1,9 @@
-### 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/112257466/213668960-baf44505-b637-42f1-bbda-89450265a134.png" width="480px">
+</div>
+
+<br/>
+
 <table align="center">
 
 <th align="center" colspan=4>42Seoul Cadet Projects</th>
@@ -21,10 +26,10 @@
 
 </tr>
 <tr>
-<td align="center"><b>Language</b> : C</td>
-<td align="center"><b>Language</b> : C</td>
-<td align="center"><b>Language</b> : C</td>
-<td align="center"><b>Language</b> : C</td>
+<td align="center"><b>C99</b></td>
+<td align="center"><b>C99</b></td>
+<td align="center"><b>C99</b></td>
+<td align="center"><b>Shell, CLI</b></td>
 </tr>
 <tr>
 <td align="center"><b>Score</b> : 125%</td>
@@ -33,7 +38,7 @@
 <td align="center"><b>Score</b> : :x:</td>
 </tr>
 <td align="center">~22. 11. 24</td>
-<td align="center">~23. 01. 10</td>
+<td align="center">~23. 01. 20</td>
 <td align="center">Task In Going</td>
 <td align="center">Task In Going</td>
 <tr/>
