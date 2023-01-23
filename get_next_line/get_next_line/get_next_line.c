@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/30 00:41:32 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/20 20:13:38 by hbyeon           ###   ########.fr       */
+/*   Updated: 2023/01/23 13:41:25 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,7 +89,7 @@ char	*get_next_line(int fd)
 	if (fd < 0)
 		return (NULL);
 	if ((storage && !ft_strchr(storage, '\n')) || !storage)
-		storage = readbuf (fd, storage);
+		storage = readbuf(fd, storage);
 	if (!storage)
 		return (NULL);
 	line = new_line(storage);
