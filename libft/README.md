@@ -11,6 +11,11 @@
   	My Very First Own Library</br>
 </p>
 <br/>
+<h3 align="center">
+	<a href="#-about">About</a>
+	<span> · </span>
+	<a href="#-usage">Usage</a>
+</h3>
 
 ---
 
