@@ -9,18 +9,7 @@
 <img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/libft/libft?logo=c&style=for-the-badge" /><br/><br/>
 	<b><i>YOUR VERY FIRST OWN LIBRARY</i></b><br>
 </p>
-
-
-<h3 align="center">
-  <span>
-
-  [**About**](#-about-the-project)
-
-  [**Usage**](#-usage)
-
-  </span>
-
-</h3>
+<br/>
 
 ---
 
@@ -33,7 +22,7 @@
 	The library will help you for your future projects in C. Through this project, you have the opportunity
 	to extend your list of functions in your own way!
 
-For more detailed information, look at the [**subject of this project**](https://github.com/Surfi89/42cursus/tree/main/Subject%20PDFs).
+For more detailed information, look at the [**subject of this project**](/libft/libft/README.md).
 
 **NOTE:** To be successful with moulinette on this project I had to put all the files in the same directory.
 I have just put them in folders and modified the Makefile to have a better organized repository.
@@ -101,6 +90,7 @@ I have just put them in folders and modified the Makefile to have a better organ
 * [`ft_lstiter`](/libft/libft/ft_lstiter.c)			- apply function to content of all list's elements.
 * [`ft_lstmap`](/libft/libft/ft_lstmap.c)				- apply function to content of all list's elements into new list.
 
+---
 
 ## 🛠️ Usage
 
