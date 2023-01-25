@@ -36,7 +36,7 @@
 	Through this project, you have the opportunity
 	to extend your list of functions in your own way!
 
-For more detailed information, look at the [**subject of this project**](/libft/libft/README.md).
+- For more detailed information, look at the [**subject of this project**](/libft/libft/README.md).
 
 ---
 
