@@ -12,12 +12,13 @@
 
 
 <h3 align="center">
+  <span>
 
   [**About**](#-about-the-project)
-  	
-    <span> · </span>
 
   [**Usage**](#-usage)
+
+  </span>
 
 </h3>
 
