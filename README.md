@@ -32,10 +32,23 @@
 <td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/g"><img src="https://user-images.githubusercontent.com/112257466/213332345-c1755de6-ee52-4b60-b8aa-2c4c1bece0f4.png" width="130px"><br/><img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/get_next_line/get_next_line?logo=c&style=for-the-badge" /></a></td>
 <td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/Born2beroot"><img src="https://user-images.githubusercontent.com/112257466/213655986-3d4c668b-c3f2-4191-b8dd-4b20794a1e69.png" width="130px"><br/><img src="https://img.shields.io/badge/On-going-007396?style=for-the-badge&logo=42&logoColor=white&color=darkgreen"></a></td>
 
-<!-- <tr>
-<td align="center"><b>so_long</b></td>
+<tr>
+<td colspan=4></td>
+</tr>
 
-</tr> -->
+<tr>
+<td align="center"><b>so_long</b></td>
+<td align="center"><b>push_swap</b></td>
+<td align="center"><b>minitalk</b></td>
+<td align="center"><b>minishell</b></td>
+</tr>
+
+<tr>
+<td><img src="https://user-images.githubusercontent.com/112257466/214543593-e3a47ed6-e31f-414e-ade0-fba1cee17371.png" width=130px><br/><img src="https://img.shields.io/badge/to-do-007396?style=for-the-badge&logo=42&logoColor=white&color=darkred"></td>
+<td><img src="https://user-images.githubusercontent.com/112257466/214543615-812bc032-e1f8-41d5-b4de-c82316447778.png" width=130px><br/><img src="https://img.shields.io/badge/to-do-007396?style=for-the-badge&logo=42&logoColor=white&color=darkred"></td></td>
+<td><img src="https://user-images.githubusercontent.com/112257466/214543836-5a3bb6ab-31bd-4872-87bf-4b3a3cf734f6.png" width=130px><br/><img src="https://img.shields.io/badge/to-do-007396?style=for-the-badge&logo=42&logoColor=white&color=darkred"></td></td>
+<td><img src="https://user-images.githubusercontent.com/112257466/214543646-2bacf803-3a50-4b10-a40d-e85b777eedaf.png" width=130px><br/><img src="https://img.shields.io/badge/to-do-007396?style=for-the-badge&logo=42&logoColor=white&color=darkred"></td></td>
+</tr>
 
 
 <!-- <tr>
