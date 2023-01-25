@@ -6,8 +6,8 @@
 
 
 <p align="center">
-	<b><i>42Cursus Projects Repository<br/>
-  	Peer to Peer Coding Bootcamp</br></br>
+	<b><i>"Knowledge Hitchhiker"<br/>
+  	42Cursus Projects Repository</br></br>
 	42Seoul Cadet A.K.A</i> hbyeon</br></br>
 </p>
 	<p align="center">
