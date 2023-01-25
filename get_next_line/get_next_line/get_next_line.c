@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
+/*   By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/30 00:41:32 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/23 13:41:25 by hbyeon           ###   ########.fr       */
+/*   Updated: 2023/01/25 16:28:42 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ char	*readbuf(int fd, char *storage)
 	char	*buffer;
 
 	rid = 1;
-	buffer = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+	buffer = (char *)malloc(sizeof(char) * (BUFFER_SIZE + 1));
 	if (!buffer)
 		return (ft_free(&storage));
 	buffer[0] = '\0';
@@ -89,7 +89,7 @@ char	*get_next_line(int fd)
 	if (fd < 0)
 		return (NULL);
 	if ((storage && !ft_strchr(storage, '\n')) || !storage)
-		storage = readbuf(fd, storage);
+		storage = readbuf (fd, storage);
 	if (!storage)
 		return (NULL);
 	line = new_line(storage);
