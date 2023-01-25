@@ -1,6 +1,6 @@
 <div align=center >
 <h1>42Cursus</h1>
-<a href="https://github.com/h-beeen/42cursus/"><img src="https://user-images.githubusercontent.com/112257466/214539845-3d384ace-a4a6-4a4a-833a-e15a04937104.png"/></a>
+<a href="https://github.com/h-beeen/42cursus/"><img src="https://user-images.githubusercontent.com/112257466/214565670-9aaf84d6-44d0-42d8-bf36-26ee5b901cf1.png"/></a>
 </div>
 <br/>
 
