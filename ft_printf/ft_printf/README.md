@@ -26,7 +26,6 @@ _여러분은 주로 가변 인자 (variadic arguments) 를 사용하는 방법�
 |    1    | [**Introduction**](#Chapter-1)        |  2   |
 |    2    | [**Common Instructions**](#Chapter-2) |  3   |
 |    3    | [**Mandatory part**](#Chapter-3)      |  4   |
-|    4    | [**Bonus part**](#Chapter-4)          |  5   |
 
 <br>
 
@@ -52,9 +51,9 @@ _여러분은 주로 가변 인자 (variadic arguments) 를 사용하는 방법�
 
 <br>
 
-- ##### _Your project must be written in accordance with the Norm. If you have bonus files/functions, they are included in the norm check and you will receive a 0 if there is a norm error inside._
+- ##### _Your project must be written in accordance with the Norm._
 
-  프로젝트는 Norm 규칙에 맞춰 작성되어야 합니다. 보너스 파일/함수가 존재할 경우, 그 또한 norm 검사에 포함되며 norm error가 있을 시 0점을 받게 됩니다.
+  프로젝트는 Norm 규칙에 맞춰 작성되어야 합니다.
 
 - ##### _Your functions should not quit unexpectedly (segmentation fault, bus error, double free, etc) apart from undefined behaviors. If this happens, your project will be considered non functional and will receive a 0 during the evaluation._
 
@@ -71,10 +70,6 @@ _여러분은 주로 가변 인자 (variadic arguments) 를 사용하는 방법�
 - ##### _Your Makefile must at least contain the rules $(NAME), all, clean, fclean and re._
 
   **Makefile**은 최소한 **$(NAME), all, clean, fclean, re** 규칙을 포함해야 합니다.
-
-- ##### _To turn in bonuses to your project, you must include a rule bonus to your Makefile, which will add all the various headers, librairies or functions that are forbidden on the main part of the project. Bonuses must be in a different file \_bonus.{c/h}. Mandatory and bonus part evaluation is done separately._
-
-  프로젝트에 보너스를 제출하려면, Makefile에 **보너스 규칙**을 포함해야 합니다. 이 보너스 규칙은 프로젝트의 메인 파트에서 금지되었던 모든 다양한 헤더, 라이브러리, 또는 함수들을 추가하여야 합니다. 보너스 과제는 반드시 \_**bonus**.{c/h}라는 별도의 파일에 있어야 합니다. 반드시 수행하여야 하는 메인 파트의 평가와 보너스 파트의 평가는 별도로 이뤄집니다.
 
 - ##### _If your project allows you to use your libft, you must copy its sources and its associated Makefile in a libft folder with its associated Makefile. Your project’s Makefile must compile the library by using its Makefile, then compile the project._
 
@@ -96,7 +91,7 @@ _여러분은 주로 가변 인자 (variadic arguments) 를 사용하는 방법�
 | **프로그램 이름**            | libftprintf.a                                                             |
 | ---------------------------- | ------------------------------------------------------------------------- |
 | **제출할 파일**              | \*.c, \*/\*.c, \*.h, \*/\*.h, Makefile                                    |
-| **Makefile 규칙**            | all, clean, fclean, re, bonus                                             |
+| **Makefile 규칙**            | all, clean, fclean, re                                          |
 | **사용가능한 <br>외부 함수** | malloc, free, write, va_start, va_arg, va_copy, va_end                    |
 | **직접 만든 libft**          | 사용 가능                                                                 |
 | **설명**                     | 실제 printf의 동작을 모방한 ft_printf를 포함하는 라이브러리를 작성하세요. |
@@ -173,32 +168,3 @@ _여러분은 주로 가변 인자 (variadic arguments) 를 사용하는 방법�
 > ##### _for more complete references : `man 3 printf / man 3 stdarg`_
 >
 > 더 완벽한 참고 자료는 `man 3 printf / man 3 stdarg`
-
-<br>
-
-# Chapter 4
-
-## Bonus part
-
-<br>
-
-- ##### _If the Mandatory part is not perfect don’t even think about bonuses_
-
-  필수 구현 파트가 완벽하지 않으면, 보너스는 생각도 하지 마세요.
-
-- ##### _You don’t need to do all the bonuses_
-
-  모든 보너스를 구현할 필요는 없습니다.
-
-- ##### _Manage any combination of the following flags: `'-0.'` and minimum field width with all conversions_
-
-  다음 플래그들의 조합 (any combination) 을 구현하세요 : `'-0.'`, 그리고 각 서식 지정자별 최소 폭
-
-- ##### _Manage all the following flags: `'# +'` (yes, one of them is a space)_
-  다음 플래그를 모두 구현하세요 : `'# +'` (맞아요, 한 개는 공백이에요)
-
-> 💡<br>
->
-> ##### _If you plan to do bonuses you should think about how to do them from the beginning to avoid a naive approach._
->
-> 보너스를 구현하실 예정이라면, 단순하게 접근하지 않기 위하여 처음부터 어떻게 구현을 해야 할 지 고민해 보셔야 할 겁니다.
