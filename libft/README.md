@@ -10,7 +10,6 @@
 	<b><i>42Cursus 1st Project<br/>
   	My Very First Own Library</br>
 </p>
-<br/>
 <h3 align="center">
 	<a href="https://github.com/h-beeen/42cursus/tree/master/libft#-about-the-project">About</a>
 	<span> · </span>
