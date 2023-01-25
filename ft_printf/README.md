@@ -27,7 +27,7 @@
 	This project consists of coding a library 
 	that contains a simplified version of the printf function.
 
-- For more detailed information, look at the [**subject of this project**](/ft_printf/ft_printf/README.md).
+- For more detailed information, look at the [**subject of this project**](/ft_printf/ft_printf/README.md/).
 
 
 ## 🛠️ Usage
