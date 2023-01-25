@@ -17,7 +17,7 @@
 	<a href="https://github.com/h-beeen/42cursus/tree/master/libft#%EF%B8%8F-usage">Usage</a>
 	</h3>
 	<p align="center">
-	<img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/libft/libft?logo=c&style=for-the-badge" /> <img src="https://img.shields.io/badge/120/100-007396?style=for-the-badge&logo=Starship&label=Score&logoColor=white&color=brightgreen"> <img src="https://img.shields.io/badge/2022&brvbar;11&brvbar;24-007396?style=for-the-badge&logo=42&label=completed&logoColor=white&color=black">
+	<img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/libft/libft?logo=c&style=for-the-badge" /> <img src="https://img.shields.io/badge/120/100-007396?style=for-the-badge&logo=Starship&label=Score&logoColor=white&color=darkgreen"> <img src="https://img.shields.io/badge/2022&brvbar;11&brvbar;24-007396?style=for-the-badge&logo=42&label=completed&logoColor=white&color=black">
 	</p>
 
 ---
@@ -36,7 +36,7 @@
 	Through this project, you have the opportunity
 	to extend your list of functions in your own way!
 
-- For more detailed information, look at the [**subject of this project**](/libft/libft/README.md).
+- For more detailed information, look at the [**subject of this project**](/libft/libft/README.md/).
 
 ---
 

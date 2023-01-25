@@ -14,7 +14,7 @@
 	<a href="https://github.com/h-beeen/42cursus/tree/master/ft_printf#%EF%B8%8F-usage">Usage</a>
 	</h3>
 	<p align="center">
-	<img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/ft_printf/ft_printf?logo=c&style=for-the-badge" /> <img src="https://img.shields.io/badge/100/100-007396?style=for-the-badge&logo=Starship&label=Score&logoColor=white&color=brightgreen"> <img src="https://img.shields.io/badge/2023&brvbar;01&brvbar;20-007396?style=for-the-badge&logo=42&label=completed&logoColor=white&color=black">
+	<img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/ft_printf/ft_printf?logo=c&style=for-the-badge" /> <img src="https://img.shields.io/badge/100/100-007396?style=for-the-badge&logo=Starship&label=Score&logoColor=white&color=darkgreen"> <img src="https://img.shields.io/badge/2023&brvbar;01&brvbar;20-007396?style=for-the-badge&logo=42&label=completed&logoColor=white&color=black">
 	</p>
 <br/>
 
