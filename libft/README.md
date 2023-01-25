@@ -12,9 +12,9 @@
 </p>
 <br/>
 <h3 align="center">
-	<a href="#-about">About</a>
+	<a href="/💡-About-the-project">About</a>
 	<span> · </span>
-	<a href="#-usage">Usage</a>
+	<a href="-usage">Usage</a>
 </h3>
 
 ---
