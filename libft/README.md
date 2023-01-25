@@ -6,8 +6,8 @@
 
 
 <p align="center">
-<img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/libft/libft?logo=c&style=for-the-badge" /><br/><br/>
-	<b><i>42Cursus 1st Subject<br/>
+<img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/libft/libft?logo=c&style=for-the-badge" /> <img src="https://img.shields.io/badge/120/100-007396?style=for-the-badge&logo=Starship&label=Score&logoColor=white&color=brightgreen"><br/><br/>
+	<b><i>42Cursus 1st Project<br/>
   	My Very First Own Library</br>
 </p>
 <br/>
@@ -16,24 +16,26 @@
 
 ## 💡 About the project
 
-> _The aim of this project is to code a C library regrouping usual functions that you'll be allowed to use in all your other projects._
+> _The aim of this project is to code a C library <br/> regrouping usual functions that you'll be allowed to use in all your other projects._
 
-	Programming in C can be very tedious when you don't have access to the very useful standard functions.
-	This project gives you the opportunity to rewrite those functions to understand them and learn to use them.
-	The library will help you for your future projects in C. Through this project, you have the opportunity
+	Programming in C can be very tedious 
+	when you don't have access to the very useful standard functions.
+	
+	This project gives you the opportunity to rewrite 
+	those functions to understand them and learn to use them.
+
+	The library will help you for your future projects in C. 
+	Through this project, you have the opportunity
 	to extend your list of functions in your own way!
 
 For more detailed information, look at the [**subject of this project**](/libft/libft/README.md).
-
-**NOTE:** To be successful with moulinette on this project I had to put all the files in the same directory.
-I have just put them in folders and modified the Makefile to have a better organized repository.
 
 ---
 
 ## 💡List of functions:
 
 
-### Functions from `<ctype.h>` library
+### ① Functions from `<ctype.h>` library
 
 * [`ft_isascii`](/libft/libft/ft_isascii.c)			- test for ASCII character.
 * [`ft_isalnum`](/libft/libft/ft_isalnum.c)			- alphanumeric character test.
@@ -43,12 +45,12 @@ I have just put them in folders and modified the Makefile to have a better organ
 * [`ft_tolower`](/libft/libft/ft_tolower.c)			- upper case to lower case letter conversion.
 * [`ft_toupper`](/libft/libft/ft_toupper.c)			- lower case to upper case letter conversion.
 
-### Functions from `<stdlib.h>` library
+### ② Functions from `<stdlib.h>` library
 
 * [`ft_atoi`](/libft/libft/ft_atoi.c)		- convert ASCII string to integer.
 * [`ft_calloc`](/libft/libft/ft_calloc.c)	- memory allocation.
 
-### Functions from `<strings.h>` library
+### ③ Functions from `<strings.h>` library
 
 * [`ft_bzero`](/libft/libft/ft_bzero.c)		- write zeroes to a byte string.
 * [`ft_memset`](/libft/libft/ft_memset.c)		- write a byte to a byte string.
@@ -57,7 +59,7 @@ I have just put them in folders and modified the Makefile to have a better organ
 * [`ft_memmove`](/libft/libft/ft_memmove.c)	- copy byte string.
 * [`ft_memcpy`](/libft/libft/ft_memcpy.c)		- copy memory area.
 
-### Functions from `<string.h>` library
+### ④ Functions from `<string.h>` library
 
 * [`ft_strlen`](/libft/libft/ft_strlen.c)				- find length of string.
 * [`ft_strchr`](/libft/libft/ft_strchr.c)				- locate character in string (first occurrence).
@@ -68,7 +70,7 @@ I have just put them in folders and modified the Makefile to have a better organ
 * [`ft_strlcpy`](/libft/libft/ft_strlcpy.c)			- size-bounded string copying.
 * [`ft_strlcat`](/libft/libft/ft_strlcat.c)			- size-bounded string concatenation.
 
-### Non-standard functions
+### ⑤ Non-standard functions
 
 * [`ft_itoa`](/libft/libft/ft_itoa.c)					- convert integer to ASCII string.
 * [`ft_substr`](/libft/libft/ft_substr.c)				- extract substring from string.
@@ -82,7 +84,7 @@ I have just put them in folders and modified the Makefile to have a better organ
 * [`ft_putendl_fd`](/libft/libft/ft_putendl_fd.c)		- output string to given file with newline.
 * [`ft_putnbr_fd`](/libft/libft/ft_putnbr_fd.c)		- output integer to given file.
 
-### Linked list functions (bonus)
+### ⑥ [BONUS] Linked list functions 
 
 * [`ft_lstnew`](/libft/libft/ft_lstnew.c)				- create new list.
 * [`ft_lstsize`](/libft/libft/ft_lstsize.c)			- count elements of a list.
@@ -100,37 +102,42 @@ I have just put them in folders and modified the Makefile to have a better organ
 
 ### Requirements
 
-The library is written in C language and needs the **`gcc` compiler** and some standard **C libraries** to run.
+- The library is written in C language and needs the **`gcc` compiler** and some standard **C libraries** to run.
+
+<br/>
 
 ### Instructions
 
-**1. Compiling the library**
+- Compiling the library
 
-To compile the library, go to its path and run:
+- To compile the library, go to its path and run:
 
-For all mandatory functions:
+- For all mandatory functions:
 
 ```shell
 $ make
 ```
 
-For bonus functions:
+- For bonus functions:
 
 ```shell
 $ make bonus
 ```
+<br/>
 
 **2. Cleaning all binary (.o) and executable files (.a)**
 
-To clean all files generated while doing a make, go to the path and run:
++ To clean all files generated while doing a make, go to the path and run:
 
 ```shell
 $ make fclean
 ```
 
+<br/>
+
 **3. Using it in your code**
 
-To use the library functions in your code, simply include its header:
+- To use the library functions in your code, simply include its header:
 
 ```C
 #include "libft.h"
