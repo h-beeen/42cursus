@@ -7,7 +7,8 @@
 
 <p align="center">
 <img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/libft/libft?logo=c&style=for-the-badge" /><br/><br/>
-	<b><i>YOUR VERY FIRST OWN LIBRARY</i></b><br>
+	<b><i>42Cursus 1st Subject<br/>
+  	My Very First Own Library</br>
 </p>
 <br/>
 
@@ -27,7 +28,10 @@ For more detailed information, look at the [**subject of this project**](/libft/
 **NOTE:** To be successful with moulinette on this project I had to put all the files in the same directory.
 I have just put them in folders and modified the Makefile to have a better organized repository.
 
-## List of functions:
+---
+
+## 💡List of functions:
+
 
 ### Functions from `<ctype.h>` library
 
