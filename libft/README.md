@@ -12,9 +12,9 @@
 </p>
 <br/>
 <h3 align="center">
-	<a href="/#💡-About-the-project">About</a>
+	<a href="https://github.com/h-beeen/42cursus/tree/master/libft#-about-the-project">About</a>
 	<span> · </span>
-	<a href="-usage">Usage</a>
+	<a href="https://github.com/h-beeen/42cursus/tree/master/libft#-usage">Usage</a>
 </h3>
 
 ---
