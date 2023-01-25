@@ -21,9 +21,9 @@ _요약: 이 프로젝트의 목적은 흔히 쓰이는 함수들을 재구성�
 |    1    | [**Introduction**](#Chapter-1)                    |  2   |
 |    2    | [**Common Instrunctions**](#Chapter-2)            |  3   |
 |    3    | [**Mandatory part**](#Chapter-3)                  |  4   |
-|   3.1   | [**Technical Considerations**](#Chapter-3-1)      |  4   |
-|   3.2   | [**Part 1 - Libc functions**](#Chapter-3-2)       |  5   |
-|   3.3   | [**Part 2 - Additional functions**](#Chapter-3-3) |  6   |
+|   3.1   | [**Technical Considerations**](#31-technical-considerations)      |  4   |
+|   3.2   | [**Part 1 - Libc functions**](#32-part-1---libc-functions)       |  5   |
+|   3.3   | [**Part 2 - Additional functions**](#33-part-2---additional-functions) |  6   |
 |    4    | [**Bonus part**](#Chapter-4)                      |  10  |
 
 <br>
