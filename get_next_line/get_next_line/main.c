@@ -1,29 +1,23 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/26 14:05:01 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/26 14:05:17 by hbyeon           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+#include "get_next_line.h"
 
-// int main(void)
-// {
-// 	char *line;
-// 	int fd = open("test1.txt", O_RDONLY);
-// 	int fd2 = open("test2.txt", O_RDONLY);
-
-// 	for(int i = 0; i < 7; i++)
-// 	{
-// 		line = get_next_line(fd);
-// 		printf("%s", line);
-// 		free(line);
-// 		line = get_next_line(fd2);
-// 		printf("%s", line);
-// 		free(line);
-// 	}
-// 	close(fd);
-// }
+int main() {
+	char *line;
+	int	fd;
+    	int i = 1;
+    
+    if (!(fd = open("test.txt", O_RDONLY)))	// 1
+    {
+    	printf("\nError in open");
+        return (0);
+    }
+    while (line = get_next_line(fd))		// 2
+    {
+    	printf("Gnl %d line : %s", i++, line);	
+        free(line);				// 6	
+    }
+    printf("\n");
+    free(line);
+	close(fd);
+	
+    return (0);
+}

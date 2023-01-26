@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/20 20:14:57 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/26 14:04:51 by hbyeon           ###   ########.fr       */
+/*   Updated: 2023/01/26 14:30:50 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 # include <limits.h>
 
 size_t	ft_strlen(char *s);
+size_t	ft_strlcpy(char *dest, char *src, size_t size);
 char	*ft_strjoin(char *s1, char *s2);
 char	*ft_strdup(char *s1);
 char	*ft_strchr(char *s, int c);
