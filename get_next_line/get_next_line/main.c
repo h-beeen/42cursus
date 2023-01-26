@@ -1,30 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/20 20:14:57 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/26 14:04:51 by hbyeon           ###   ########.fr       */
+/*   Created: 2023/01/26 14:05:01 by hbyeon            #+#    #+#             */
+/*   Updated: 2023/01/26 14:05:17 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+// int main(void)
+// {
+// 	char *line;
+// 	int fd = open("test1.txt", O_RDONLY);
+// 	int fd2 = open("test2.txt", O_RDONLY);
 
-# include <unistd.h>
-# include <stdio.h>
-# include <stdlib.h>
-# include <fcntl.h>
-# include <limits.h>
-
-size_t	ft_strlen(char *s);
-char	*ft_strjoin(char *s1, char *s2);
-char	*ft_strdup(char *s1);
-char	*ft_strchr(char *s, int c);
-char	*ft_substr(char *s, unsigned int start, size_t len);
-char	*get_next_line(int fd);
-char	*ft_free(char **str);
-
-#endif
+// 	for(int i = 0; i < 7; i++)
+// 	{
+// 		line = get_next_line(fd);
+// 		printf("%s", line);
+// 		free(line);
+// 		line = get_next_line(fd2);
+// 		printf("%s", line);
+// 		free(line);
+// 	}
+// 	close(fd);
+// }

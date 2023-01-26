@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/30 00:41:32 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/26 11:44:22 by hbyeon           ###   ########.fr       */
+/*   Updated: 2023/01/26 14:06:35 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,3 +98,21 @@ char	*get_next_line(int fd)
 	storage = clean_storage(storage);
 	return (line);
 }
+
+// int main(void)
+// {
+// 	char *line;
+// 	int fd = open("test.txt", O_RDONLY);
+// 	int fd2 = open("tcs.txt", O_RDONLY);
+
+// 	for(int i = 0; i < 7; i++)
+// 	{
+// 		line = get_next_line(fd);
+// 		printf("%s", line);
+// 		free(line);
+// 		line = get_next_line(fd2);
+// 		printf("%s", line);
+// 		free(line);
+// 	}
+// 	close(fd);
+// }
