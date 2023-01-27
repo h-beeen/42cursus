@@ -13,7 +13,7 @@
 	<a href="https://github.com/h-beeen/42cursus/tree/master/ft_printf#%EF%B8%8F-usage">Usage</a>
 	</h3>
 	<p align="center">
-	<img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/get_next_line/get_next_line?logo=c&style=for-the-badge" /> <img src="https://img.shields.io/badge/120/100-007396?style=for-the-badge&logo=Starship&label=Score&logoColor=white&color=darkgreen"> <img src="https://img.shields.io/badge/2023&brvbar;01&brvbar;29-007396?style=for-the-badge&logo=42&label=completed&logoColor=white&color=black">
+	<img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/get_next_line/get_next_line?logo=c&style=for-the-badge" /> <img src="https://img.shields.io/badge/120/100-007396?style=for-the-badge&logo=Starship&label=Score&logoColor=white&color=darkgreen"> <img src="https://img.shields.io/badge/2023&brvbar;01&brvbar;27-007396?style=for-the-badge&logo=42&label=completed&logoColor=white&color=black">
 	</p>
 
 ---
@@ -63,5 +63,7 @@ You can edit test.txt files to put another text if you wish to test othe cases. 
 Then simply run this command (change "xx" with desired buffer size) :
 
 ```shell
-$ gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx get_next_line.c get_next_line_utils.c && ./a.out
+$ gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx get_next_line.c get_next_line_utils.c main.c
+
+$ ./a.out
 ```
