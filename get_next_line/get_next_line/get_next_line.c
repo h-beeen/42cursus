@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+        */
+/*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/30 00:41:32 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/01/26 14:28:52 by hbyeon           ###   ########.fr       */
+/*   Updated: 2023/01/27 16:54:49 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_free(char **str)
 	return (NULL);
 }
 
-char	*clean_storage(char *storage)
+char	*re_storage(char *storage)
 {
 	char	*new_storage;
 	char	*ptr;
@@ -58,32 +58,32 @@ char	*new_line(char *storage)
 
 char	*readbuf(int fd, char *storage)
 {
-	int		rid;
+	int		flag;
 	char	*buffer;
 
-	rid = 1;
+	flag = 1;
 	buffer = (char *)malloc(sizeof(char) * (BUFFER_SIZE + 1));
 	if (!buffer)
 		return (ft_free(&storage));
 	buffer[0] = '\0';
-	while (rid > 0 && !ft_strchr(buffer, '\n'))
+	while (flag > 0 && !ft_strchr(buffer, '\n'))
 	{
-		rid = read (fd, buffer, BUFFER_SIZE);
-		if (rid > 0)
+		flag = read (fd, buffer, BUFFER_SIZE);
+		if (flag > 0)
 		{
-			buffer[rid] = '\0';
+			buffer[flag] = '\0';
 			storage = ft_strjoin(storage, buffer);
 		}
 	}
 	free(buffer);
-	if (rid == -1)
+	if (flag == -1)
 		return (ft_free(&storage));
 	return (storage);
 }
 
 char	*get_next_line(int fd)
 {
-	static char	*storage = {0};
+	static char	*storage;
 	char		*line;
 
 	if (fd < 0)
@@ -95,6 +95,6 @@ char	*get_next_line(int fd)
 	line = new_line(storage);
 	if (!line)
 		return (ft_free(&storage));
-	storage = clean_storage(storage);
+	storage = re_storage(storage);
 	return (line);
 }
