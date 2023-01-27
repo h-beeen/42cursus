@@ -49,12 +49,3 @@
 
 That said, I hope these guides can be useful<br/>
 if you're stuck or simply curious to see how someone else did it.
-
----
-
-## [Github Born2beroot Debian guide](../tree/master/guide):
-* [Istallation](../tree/master/installation_debian.md)
-* [Configuration](../tree/master/configuration_debian.md)
-* [Bonus](../tree/master/bonus_debian.md)
-
----
