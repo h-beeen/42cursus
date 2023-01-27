@@ -1,9 +1,4 @@
-<div align=center >
-<h1>Born2beroot</h1>
-<a href="https://github.com/h-beeen/42cursus/tree/master/born2beroot"><img src="https://user-images.githubusercontent.com/112257466/213655986-3d4c668b-c3f2-4191-b8dd-4b20794a1e69.png"></a>
-</div>
 
-<br/>
 
 ##### Summary: This document is a System Administration related exercise.
 
