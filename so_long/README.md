@@ -9,11 +9,11 @@
   	My Very Small 2D Game</i></br></br>
 </p>
 	<h3 align="center">
-	<a href="https://github.com/h-beeen/42cursus/tree/master/libft#-about-the-project">About</a>
+	<a href="https://github.com/h-beeen/42cursus/tree/master/so_long#-about-the-project">About</a>
 	<span> · </span>
-	<a href="https://github.com/h-beeen/42cursus/tree/master/libft#-list-of-functions">Usage</a>
+	<a href="https://github.com/h-beeen/42cursus/tree/master/so_long#%EF%B8%8F-usage">Usage</a>
 	<span> · </span>
-	<a href="https://github.com/h-beeen/42cursus/tree/master/libft#%EF%B8%8F-usage">How To Play</a>
+	<a href="https://github.com/h-beeen/42cursus/tree/master/so_long#%EF%B8%8F-usage">How To Play</a>
 	</h3>
 	<p align="center">
 	<img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/so_long/so_long?logo=c&style=for-the-badge" /> <img src="https://img.shields.io/badge/0/100-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darkgreen"> <img src="https://img.shields.io/badge/2023&brvbar;00&brvbar;00-007396?style=for-the-badge&logo=Starship&label=completed&logoColor=white&color=black">
@@ -34,9 +34,6 @@
 - The library is written in C language and needs the **`gcc` compiler** and some standard **C libraries** to run.
 
 <br/>
-
-## Goals
-
 
 ### Instructions
 

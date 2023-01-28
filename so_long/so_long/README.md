@@ -24,7 +24,6 @@ _요약: 이 프로젝트는 아주 간단한 2D 게임을 만들어 볼 겁니�
 |    3    | [**Common Instructions**](#Chapter-3)      |  4   |
 |    4    | [**Mandatory part - So Long**](#Chapter-4) |  5   |
 |    5    | [**Bonus part**](#Chapter-5)               |  8   |
-|    6    | [**Examples**](#Chapter-6)                 |  9   |
 
 <br>
 
@@ -280,19 +279,3 @@ _요약: 이 프로젝트는 아주 간단한 2D 게임을 만들어 볼 겁니�
 >
 > 여러분은 뒤에서 더 재밌는 게임들을 만들어 볼 수 있어요.
 > 너무 많은 시간을 할애하지 마세요!!!
-
-![안녕히!](solong.png)
-
-<br>
-
-# **Chapter 6**
-
-## Examples
-
-<br>
-
-![예시](examples.png)
-
-##### _Figure VI.1: some so_long examples with some very bad (almost bonus worthy) taste in graphic design !_
-
-사진 6.1: 그래픽 디자인 센스가 (보너스급으로) 많이 구린 `so_long` 예시들!
