@@ -45,7 +45,7 @@
 </tr>
 
 <tr>
-<td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/so_long/"><b>so_long</b></td>
+<td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/so_long/"><b>🌟 so_long</b></td>
 <td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/minitalk/"><b>minitalk</b></td>
 <td align="center"><b>push_swap</b></td>
 <td align="center"><b>Philosophers</b></td>
