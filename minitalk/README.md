@@ -7,8 +7,7 @@
 
 <p align="center">
 	<b><i>42Cursus 6th Project<br/>
-  	A small data exchange program</br>
-	Using UNIX Signals</i></br></br>
+  	A small data exchange program Using UNIX Signals</i></br></br>
 </p>
 	<h3 align="center">
 	<a href="https://github.com/h-beeen/42cursus/tree/master/minitalk#-about-the-project">About</a>
