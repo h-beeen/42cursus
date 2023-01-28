@@ -1,5 +1,3 @@
-
-
 <div align=center >
 <h1>💬 minitalk</h1>
 <a href="https://github.com/h-beeen/42cursus/tree/master/libft"><img src="https://user-images.githubusercontent.com/112257466/214543836-5a3bb6ab-31bd-4872-87bf-4b3a3cf734f6.png"/></a>
@@ -14,8 +12,6 @@
 </p>
 	<h3 align="center">
 	<a href="https://github.com/h-beeen/42cursus/tree/master/minitalk#-about-the-project">About</a>
-	<span> · </span>
-	<a href="https://github.com/h-beeen/42cursus/tree/master/minitalk#-list-of-functions">Function</a>
 	<span> · </span>
 	<a href="https://github.com/h-beeen/42cursus/tree/master/minitalk#%EF%B8%8F-usage">Usage</a>
 	</h3>

@@ -33,10 +33,10 @@
 <td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/Born2beroot"><img src="https://user-images.githubusercontent.com/112257466/215251718-eacac32b-5a95-41d0-949b-09684804ab2c.png" width="130px"></a></td>
 
 <tr>
-<td align=center><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/libft/libft?logo=c&style=for-the-badge" height=25 width=100></td>
-<td align=center><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/ft_printf/ft_printf?logo=c&style=for-the-badge" height=25 width=100/></td>
-<td align=center><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/get_next_line/get_next_line?logo=c&style=for-the-badge" height=25 width=100/></td>
-<td align=center><img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/Born2beroot/Born2beroot?logo=Powershell&style=for-the-badge" height=25 width=100></td>
+<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/libft"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/libft/libft?logo=c&style=for-the-badge" height=25 width=100></a></td>
+<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/ft_printf"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/ft_printf/ft_printf?logo=c&style=for-the-badge" height=25 width=100/></a></td>
+<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/get_next_line"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/get_next_line/get_next_line?logo=c&style=for-the-badge" height=25 width=100/></a></td>
+<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/Born2beroot"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/Born2beroot/Born2beroot?logo=Powershell&style=for-the-badge" height=25 width=100></a></td>
 </tr>
 
 
@@ -45,21 +45,21 @@
 </tr>
 
 <tr>
-<td align="center"><b>minitalk</b></td>
+<td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/minitalk/"><b>minitalk</b></td>
 <td align="center"><b>so_long</b></td>
 <td align="center"><b>push_swap</b></td>
 <td align="center"><b>Philosophers</b></td>
 </tr>
 
 <tr>
-<td align=center><img src="https://user-images.githubusercontent.com/112257466/214543836-5a3bb6ab-31bd-4872-87bf-4b3a3cf734f6.png" width=130px></td>
+<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/minitalk"><img src="https://user-images.githubusercontent.com/112257466/214543836-5a3bb6ab-31bd-4872-87bf-4b3a3cf734f6.png" width=130px></a></td>
 <td align=center><img src="https://user-images.githubusercontent.com/112257466/214543593-e3a47ed6-e31f-414e-ade0-fba1cee17371.png" width=130px></td>
 <td align=center><img src="https://user-images.githubusercontent.com/112257466/214543615-812bc032-e1f8-41d5-b4de-c82316447778.png" width=130px></td>
 <td align=center><img src="https://user-images.githubusercontent.com/112257466/215252126-69cb485e-b264-4562-9a27-4a71f27abf86.png" width=130px></td>
 </tr>
 
 <tr>
-<td align=center><img src="https://img.shields.io/badge/to-do-007396?style=for-the-badge&logo=42&logoColor=white&color=darkred" height=25 width=100></td>
+<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/libft"><img src="https://img.shields.io/badge/to-do-007396?style=for-the-badge&logo=42&logoColor=white&color=darkred" height=25 width=100></a></td>
 <td align=center><img src="https://img.shields.io/badge/to-do-007396?style=for-the-badge&logo=42&logoColor=white&color=darkred" height=25 width=100></td>
 <td align=center><img src="https://img.shields.io/badge/to-do-007396?style=for-the-badge&logo=42&logoColor=white&color=darkred" height=25 width=100></td>
 <td align=center><img src="https://img.shields.io/badge/to-do-007396?style=for-the-badge&logo=42&logoColor=white&color=darkred" height=25 width=100></td>
