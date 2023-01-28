@@ -6,7 +6,7 @@
 
 
 <p align="center">
-	<b><i>42Cursus 5th Project<br/>
+	<b><i>42Cursus 6th Project<br/>
   	A small data exchange program</br>
 	Using UNIX Signals</i></br></br>
 </p>
