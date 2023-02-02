@@ -7,7 +7,7 @@
 
 <p align="center">
 	<b><i>42Cursus 7th Project<br/>
-  	My Very First Own Library</i></br></br>
+  	Sorting Algorithm Project</i></br></br>
 </p>
 	<h3 align="center">
 	<a href="https://github.com/h-beeen/42cursus/tree/master/push_swap#-about-the-project">About</a>
@@ -17,7 +17,7 @@
 	<a href="https://github.com/h-beeen/42cursus/tree/master/push_swap#-push_swap-rules">Rules</a>
 	</h3>
 	<p align="center">
-	<img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/push_swap/push_swap?logo=c&style=for-the-badge" /> <img src="https://img.shields.io/badge/120/100-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darkgreen"> <img src="https://img.shields.io/badge/2022&brvbar;11&brvbar;24-007396?style=for-the-badge&logo=Starship&label=completed&logoColor=white&color=black">
+	<img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/push_swap/push_swap?logo=c&style=for-the-badge" /> <img src="https://img.shields.io/badge/0/100-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darkgreen"> <img src="https://img.shields.io/badge/2023&brvbar;00&brvbar;00-007396?style=for-the-badge&logo=Starship&label=completed&logoColor=white&color=black">
 	</p>
 
 ---
