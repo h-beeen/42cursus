@@ -12,9 +12,9 @@
 	<h3 align="center">
 	<a href="https://github.com/h-beeen/42cursus/tree/master/push_swap#-about-the-project">About</a>
 	<span> · </span>
-	<a href="https://github.com/h-beeen/42cursus/tree/master/push_swap#-list-of-functions">Usage</a>
+	<a href="https://github.com/h-beeen/42cursus/tree/master/push_swap#%EF%B8%8F-usage">Usage</a>
 	<span> · </span>
-	<a href="https://github.com/h-beeen/42cursus/tree/master/push_swap#%EF%B8%8F-usage">Rule</a>
+	<a href="https://github.com/h-beeen/42cursus/tree/master/push_swap#-push_swap-rules">Rules</a>
 	</h3>
 	<p align="center">
 	<img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/push_swap/push_swap?logo=c&style=for-the-badge" /> <img src="https://img.shields.io/badge/120/100-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darkgreen"> <img src="https://img.shields.io/badge/2022&brvbar;11&brvbar;24-007396?style=for-the-badge&logo=Starship&label=completed&logoColor=white&color=black">
