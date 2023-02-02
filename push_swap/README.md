@@ -1,6 +1,6 @@
 <div align=center >
-<h1>🧰 push_swap</h1>
-<a href="https://github.com/h-beeen/42cursus/tree/master/push_swap"><img src="https://user-images.githubusercontent.com/112257466/213332349-fbcc97f6-2e2d-472c-8ef9-a015662a2fdb.png"/></a>
+<h1>🏙️ push_swap</h1>
+<a href="https://github.com/h-beeen/42cursus/tree/master/push_swap"><img src="https://user-images.githubusercontent.com/112257466/214543615-812bc032-e1f8-41d5-b4de-c82316447778.png"/></a>
 </div>
 <br/>
 
@@ -12,9 +12,9 @@
 	<h3 align="center">
 	<a href="https://github.com/h-beeen/42cursus/tree/master/push_swap#-about-the-project">About</a>
 	<span> · </span>
-	<a href="https://github.com/h-beeen/42cursus/tree/master/push_swap#-list-of-functions">Function</a>
+	<a href="https://github.com/h-beeen/42cursus/tree/master/push_swap#-list-of-functions">Usage</a>
 	<span> · </span>
-	<a href="https://github.com/h-beeen/42cursus/tree/master/push_swap#%EF%B8%8F-usage">Usage</a>
+	<a href="https://github.com/h-beeen/42cursus/tree/master/push_swap#%EF%B8%8F-usage">Rule</a>
 	</h3>
 	<p align="center">
 	<img alt="Github repo file count" src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/push_swap/push_swap?logo=c&style=for-the-badge" /> <img src="https://img.shields.io/badge/120/100-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darkgreen"> <img src="https://img.shields.io/badge/2022&brvbar;11&brvbar;24-007396?style=for-the-badge&logo=Starship&label=completed&logoColor=white&color=black">
@@ -22,12 +22,17 @@
 
 ---
 
-push_swap is a 42 school algorithm project where we must sort a given list of random numbers with a limited set of instructions, using the lowest possible number of actions.
+## 💡 About the project
+	push_swap is a 42 school algorithm project where 
+	we must sort a given list of random numbers with a limited set of instructions,
+	using the lowest possible number of actions.
 
-## Status
-Finished 05/09/2022. Grade: 100%
 
-## Usage
+<br/>
+
+---
+
+## 🛠️ Usage
 
 Git clone the repository and cd into it. Then use ```make``` to compile.
 
@@ -53,13 +58,14 @@ ARG="3 0 9 2 -1"; ./push_swap $ARG | ./checker $ARG
 
 You can also simply ```make test3```, ```make test5```, ```make test100``` or ```make test500``` to quickly test the program with that number of values to sort.
 
-You can visualize this push_swap algorithm in action with [O-reo's push_swap visualizer](https://github.com/o-reo/push_swap_visualizer):
+<br/>
 
-![Push_swap visualization by mcombeau](https://github.com/mcombeau/push_swap/blob/main/subject/push_swap_visualization.gif)
+---
 
-## Push_Swap Rules and Grading
+## 📖 Push_Swap Rules
 
-The program is only allowed two stacks to work with, stack A and stack B. All the numbers are initially added to stack A, and B is empty.
+The program is only allowed two stacks to work with, </br>
+stack A and stack B. All the numbers are initially added to stack A, and B is empty.
 
 The possible actions are:
 
@@ -91,5 +97,3 @@ The grade depends on how efficient the program's sorting process is.
   * 3 points for less than 8500
   * 2 points for less than 10000
   * 1 point for less than 11500
-
-Validating the project requires at least 80/100.
