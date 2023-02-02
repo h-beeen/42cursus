@@ -517,9 +517,9 @@ $>
 
 ## Submission and peer correction
 
-##### _Submit your work on your `GiT` repository as usual. Only the work on your repository will be graded._
+##### _Submit your work on your `Git` repository as usual. Only the work on your repository will be graded._
 
-항상 그래왔듯, 여러분의 결과물을 `GIT` 레포지토리에 제출하세요. 레포지토리에 있는 과제물만이 채점될 것입니다.
+항상 그래왔듯, 여러분의 결과물을 `Git` 레포지토리에 제출하세요. 레포지토리에 있는 과제물만이 채점될 것입니다.
 
 ##### _Good luck to all!_
 
