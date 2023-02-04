@@ -11,8 +11,7 @@
 	42Seoul Cadet A.K.A</i> hbyeon</br></br>
 </p>
 	<p align="center">
-		<img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/stats?cursusId=9&coalitionId=piscine" width=350/>
-	<img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/stats?cursusId=21&coalitionId=87" width=350/><br/>
+	<img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/stats?cursusId=21&coalitionId=87" width=450/><br/>
 	</p>
 
 <br/>
