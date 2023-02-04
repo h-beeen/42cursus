@@ -12,6 +12,7 @@
 
 <br/>
 
+
 <table align="center">
 <th colspan=4><img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/stats?cursusId=21&coalitionId=87" width=100%></th>
 </th>
