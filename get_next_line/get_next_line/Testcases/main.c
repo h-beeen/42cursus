@@ -6,7 +6,7 @@
 /*   By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/26 18:36:27 by hbyeon            #+#    #+#             */
-/*   Updated: 2023/02/04 14:26:14 by hbyeon           ###   ########.fr       */
+/*   Updated: 2023/02/04 22:30:25 by hbyeon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,6 @@ int main(void)
 {
 	int fd = open("test.txt", O_RDONLY);
 	for(int i = 0; i < 1; i++)
-		printf("%s", get_next_line(42));
+		printf("%s", get_next_line(4212));
 	close(fd);
 }
