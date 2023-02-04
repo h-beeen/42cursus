@@ -10,11 +10,10 @@
   	42Cursus Projects Repository</br></br>
 	42Seoul Cadet A.K.A</i> hbyeon</br></br>
 
-<br/>
 
 
 <table align="center">
-<th colspan=4><img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/stats?cursusId=21&coalitionId=87" width=100%></th>
+<th colspan=4><img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/stats?cursusId=21&coalitionId=87" width=80%></th>
 </th>
 <tr>
 <td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/libft"><b>Libft</b></td>
