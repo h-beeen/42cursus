@@ -4,7 +4,6 @@
 </div>
 <br/>
 
-
 <p align="center">
 	<b><i>42Cursus 1st Project<br/>
   	My Very First Own Library</i></br></br>
