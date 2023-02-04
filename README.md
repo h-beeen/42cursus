@@ -32,7 +32,13 @@
 <td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/ft_printf"><img src="https://user-images.githubusercontent.com/112257466/213344355-43c9c104-b71f-4e25-96ab-51bb15efcb74.png" width="130px"></a></td>
 <td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/get_next_line"><img src="https://user-images.githubusercontent.com/112257466/213332345-c1755de6-ee52-4b60-b8aa-2c4c1bece0f4.png" width="130px"></a></td>
 <td align="center"><a href="https://github.com/h-beeen/42cursus/tree/master/Born2beroot"><img src="https://user-images.githubusercontent.com/112257466/215251718-eacac32b-5a95-41d0-949b-09684804ab2c.png" width="130px"></a></td>
-
+</tr>
+<tr>
+<td align=center><img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/project/2867969"/ height=20></td>
+<td align=center><img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/project/2896219"/ height=20></td>
+<td align=center><img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/project/2896222"/ height=20></td>
+<td align=center><img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/project/2896223"/ height=20></td>
+</tr>
 <tr>
 <td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/libft"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/libft/libft?logo=c&style=for-the-badge" height=25 width=100></a></td>
 <td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/ft_printf"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/ft_printf/ft_printf?logo=c&style=for-the-badge" height=25 width=100/></a></td>
@@ -58,14 +64,18 @@
 <td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/push_swap"><img src="https://user-images.githubusercontent.com/112257466/214543615-812bc032-e1f8-41d5-b4de-c82316447778.png" width=130px></td>
 <td align=center><img src="https://user-images.githubusercontent.com/112257466/215252126-69cb485e-b264-4562-9a27-4a71f27abf86.png" width=130px></td>
 </tr>
-
+<tr>
+<td align=center><img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/project/2776758" height=20/></td>
+<td align=center><img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/project/2776758"/ height=20></td>
+<td align=center><img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/project/2776758"/ height=20></td>
+<td align=center><img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/project/2776758"/ height=20></td>
+</tr>
 <tr>
 <td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/so_long/"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/so_long/so_long?logo=c&style=for-the-badge" height=25 width=100></a></td>
 <td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/minitalk"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/minitalk/minitalk?logo=c&style=for-the-badge" height=25 width=100></a></td>
 <td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/push_swap"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/push_swap/push_swap?logo=c&style=for-the-badge" height=25 width=100></td>
 <td align=center><img src="https://img.shields.io/badge/to-do-007396?style=for-the-badge&logo=42&logoColor=white&color=darkred" height=25 width=100></td>
 </tr>
-
 
 <!-- <tr>
 <td align ="center"><a href="https://github.com/h-beeen/42cursus/tree/master/so_long"><img src="https://user-images.githubusercontent.com/112257466/213670100-d03d61dc-9005-490f-a15e-8be0520c3b90.png" width="100px"></a><br/>Circle 2</td>
