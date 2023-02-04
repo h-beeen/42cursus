@@ -11,7 +11,8 @@
 	42Seoul Cadet A.K.A</i> hbyeon</br></br>
 </p>
 	<p align="center">
-	<img src="https://img.shields.io/badge/lv.2.10-007396?style=for-the-badge&logo=42&label=level&logoColor=white&color=darkgreen"> <img src="https://img.shields.io/badge/2022&brvbar;11&brvbar;07-007396?style=for-the-badge&logo=Starship&label=joined&logoColor=white&color=black">
+		<img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/stats?cursusId=9&coalitionId=piscine" width=350/>
+	<img src="https://badge42.vercel.app/api/v2/cldq2y4ur00410fmnypbc8j38/stats?cursusId=21&coalitionId=87" width=350/><br/>
 	</p>
 
 <br/>
