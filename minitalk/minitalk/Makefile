@@ -3,65 +3,46 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: hbyeon <hbyeon@student.42seoul.kr>         +#+  +:+       +#+         #
+#    By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/05/03 13:10:00 by hbyeon            #+#    #+#              #
-#    Updated: 2023/05/03 13:10:27 by hbyeon           ###   ########.fr        #
+#    Created: 2023/05/09 20:32:49 by hbyeon            #+#    #+#              #
+#    Updated: 2023/05/09 20:32:50 by hbyeon           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-MINITALK			= minitalk
+NAMEC = client
+NAMES = server
 
-SERVER 				= server
-CLIENT				= client
+SRCC_FILE = client.c
+SRCS_FILE = server.c
 
-CC 					= gcc
-CFLAGS				= -Wall -Werror -Wextra
+SRCC = $(SRCC_FILE)
+SRCS = $(SRCS_FILE)
 
-INCFLAGS 			= -I./libft
+OBJC = ${SRCC_FILE:.c=.o}
+OBJS = ${SRCS_FILE:.c=.o}
 
-LIBFT_PATH			= ./libft/
-LIBFT_FILES 		= ft_putchar_fd.c ft_putstr_fd.c ft_putnbr_fd.c \
-					  ft_atoi.c ft_strdup.c ft_strlen.c ft_putstr_lf.c \
-					  ft_charjoin.c ft_exception.c ft_kill.c
-LIBFT_SRCS			= $(addprefix $(LIBFT_PATH), $(LIBFT_FILES))
-LIBFT_OBJS			= $(LIBFT_SRCS:.c=.o)
+CC			= cc
+CFLAGS		= -Wall -Werror -Wextra
+Includes = -I includes
+RM = rm -rf
 
-SERVER_PATH			= ./ft_server/
-SERVER_FILES 		= server.c server_handler.c
-SERVER_SRCS			= $(addprefix $(SERVER_PATH), $(SERVER_FILES))
-SERVER_OBJS			= $(SERVER_SRCS:.c=.o)
+all:	$(NAMEC) $(NAMES)
 
-CLIENT_PATH			= ./ft_client/
-CLIENT_FILES 		= client.c client_handler.c
-CLIENT_SRCS			= $(addprefix $(CLIENT_PATH), $(CLIENT_FILES))
-CLIENT_OBJS			= $(CLIENT_SRCS:.c=.o)
+$(NAMEC) : $(OBJC)
+		$(CC) $(CFLAGS) $(OBJC) $(Includes) -o $(NAMEC)
 
+$(NAMES) : $(OBJS)
+		$(CC) $(CFLAGS) $(OBJS) $(Includes) -o $(NAMES)
 
-SERVER_OBJECTS	= $(SERVER_OBJS)
-CLIENT_OBJECTS	= $(CLIENT_OBJS)
+clean :
+		${RM} ${OBJC}
+		${RM} ${OBJS}
 
+fclean : clean
+		${RM} $(NAMEC)
+		${RM} $(NAMES)
 
-all: $(MINITALK)
+re : fclean all
 
-.c.o:
-	$(CC) $(CFLAGS) $(INCFLAGS) -c $< -o $@
-
-$(SERVER): $(LIBFT_OBJS) $(SERVER_OBJECTS)
-	$(CC) $(CFLAGS) $(INCFLAGS) $^ -o $@
-
-$(CLIENT): $(LIBFT_OBJS) $(CLIENT_OBJECTS)
-	$(CC) $(CFLAGS) $(INCFLAGS) $^ -o $@
-
-$(MINITALK): $(SERVER) $(CLIENT)
-
-
-re: fclean all
-
-clean:
-	$(RM) $(LIBFT_OBJS) $(SERVER_OBJS) $(CLIENT_OBJS)
-
-fclean: clean
-	$(RM) $(SERVER) $(CLIENT)
-
-.PHONY: all re clean fclean
+.PHONY:		all clean fclean re
