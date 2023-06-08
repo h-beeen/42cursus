@@ -55,9 +55,9 @@
 </tr>
 
 <tr>
-<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/so_long/"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/so_long/so_long?logo=c&style=for-the-badge" height=25 width=100><br><img src="https://img.shields.io/badge/0-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darked" width=100></a></td>
+<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/so_long/"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/so_long/so_long?logo=c&style=for-the-badge" height=25 width=100><br><img src="https://img.shields.io/badge/0-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darkred" width=100></a></td>
 <td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/minitalk"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/minitalk/minitalk?logo=c&style=for-the-badge" height=25 width=100><br><img src="https://img.shields.io/badge/100-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darkgreen" width=100></a></td>
-<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/push_swap"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/push_swap/push_swap?logo=c&style=for-the-badge" height=25 width=100><br><img src="https://img.shields.io/badge/0-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darked" width=100></td>
+<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/push_swap"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/push_swap/push_swap?logo=c&style=for-the-badge" height=25 width=100><br><img src="https://img.shields.io/badge/0-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darkred" width=100></td>
 <td align=center><img src="https://img.shields.io/badge/to-do-007396?style=for-the-badge&logo=42&logoColor=white&color=darkred" height=25 width=100><br><img src="https://img.shields.io/badge/0-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darkred" width=100></td>
 </tr>
 
