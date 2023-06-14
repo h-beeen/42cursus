@@ -49,7 +49,7 @@
 
 <tr>
 <td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/so_long/"><img src="https://user-images.githubusercontent.com/112257466/214543593-e3a47ed6-e31f-414e-ade0-fba1cee17371.png" width=130px></td>
-<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/minitalk"><img src="https://user-images.githubusercontent.com/112257466/214543836-5a3bb6ab-31bd-4872-87bf-4b3a3cf734f6.png" width=130px></a></td>
+<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/minitalk"><img src="https://github.com/h-beeen/42cursus/assets/112257466/032543c2-3420-43f1-b4c7-4bc4aa661a18" width=130px></a></td>
 <td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/push_swap"><img src="https://user-images.githubusercontent.com/112257466/214543615-812bc032-e1f8-41d5-b4de-c82316447778.png" width=130px></td>
 <td align=center><img src="https://user-images.githubusercontent.com/112257466/215252126-69cb485e-b264-4562-9a27-4a71f27abf86.png" width=130px></td>
 </tr>

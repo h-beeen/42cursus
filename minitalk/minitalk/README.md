@@ -1,6 +1,6 @@
 <div align=center >
 <h1>💬 minitalk</h1>
-<a href="https://github.com/h-beeen/42cursus/tree/master/libft"><img src="https://user-images.githubusercontent.com/112257466/214543836-5a3bb6ab-31bd-4872-87bf-4b3a3cf734f6.png"/></a>
+<a href="https://github.com/h-beeen/42cursus/tree/master/libft"><img src="https://github.com/h-beeen/42cursus/assets/112257466/032543c2-3420-43f1-b4c7-4bc4aa661a18"/></a>
 </div>
 
 <br/>
