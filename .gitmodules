@@ -1,0 +1,3 @@
+[submodule "42Piscine"]
+	path = 42Piscine
+	url = git@github.com:h-beeen/42Piscine.git
