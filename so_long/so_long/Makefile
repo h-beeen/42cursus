@@ -5,53 +5,51 @@
 #                                                     +:+ +:+         +:+      #
 #    By: hbyeon <hbyeon@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/11/23 10:07:33 by hbyeon            #+#    #+#              #
-#    Updated: 2022/11/24 18:28:25 by hbyeon           ###   ########.fr        #
+#    Created: 2023/06/12 10:24:44 by hbyeon            #+#    #+#              #
+#    Updated: 2023/06/15 15:55:38 by hbyeon           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libft.a
-SRCS = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c ft_isascii.c \
-ft_isdigit.c ft_isprint.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c \
-ft_memset.c ft_strchr.c ft_strdup.c ft_strlcat.c ft_strlcpy.c ft_strlen.c \
-ft_strncmp.c ft_strnstr.c ft_strrchr.c ft_tolower.c ft_toupper.c\
-ft_substr.c ft_strjoin.c ft_strtrim.c ft_split.c ft_itoa.c ft_strmapi.c \
-ft_striteri.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c \
+NAME			= so_long
+SRCS			= ./utils/main.c \
+				  ./utils/get_next_line.c \
+				  ./utils/get_next_line_utils.c \
+				  ./utils/parsing.c \
+				  ./utils/utils.c \
+				  ./utils/draw.c \
+				  ./utils/move.c \
+				  ./utils/ft_functions.c \
+				  ./utils/map_checker.c \
+				  ./utils/key_checker.c
 
-SRCS_B = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c \
-ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c
+HEADER			= ./utils/so_long.h
 
-OBJS = $(SRCS:.c=.o)
-OBJS_B = $(SRCS_B:.c=.o)
+CC				= cc
+CFLAGS			= -Wall -Wextra -Werror
+MLX_PATH		= mlx/
+MLX_LIB			= $(MLX_PATH)libmlx.a
+MLX_FLAGS		= -L./mlx -lmlx -framework OpenGL -framework Appkit
 
-CC = cc
-CFLAGS = -c -Wall -Wextra -Werror
-AR = ar -rcs
-RM = rm -f
+RM				= rm -f
 
-ifdef BONUS
-	OBJS_ALL = $(OBJS) $(OBJS_B)
-else
-	OBJS_ALL = $(OBJS)
-endif
+OBJS			= $(SRCS:.c=.o)
 
-all :		$(NAME)
+$(NAME): $(OBJS) $(HEADER) $(MLX_LIB)
+	$(CC) $(OBJS) $(CFLAGS) $(MLX_FLAGS) -o $(NAME)
 
-bonus :
-			make BONUS=1 all
+$(MLX_LIB):
+	$(MAKE) -C $(MLX_PATH)
 
-$(NAME) :	$(OBJS_ALL)
-			$(AR) $(NAME) $(OBJS_ALL)
+all: $(NAME)
 
-.c.o :
-			$(CC) $(CFLAGS) $< -o $@ -I libft.h
+clean:
+	$(RM) $(OBJS)
+	$(MAKE) -C $(MLX_PATH) clean
 
-clean :
-			$(RM) $(OBJS) $(OBJS_B)
+fclean: clean
+	$(RM) $(NAME)
+	$(RM) $(MLX_LIB)
 
-fclean : clean
-			$(RM) $(NAME)
+re: fclean all
 
-re : fclean all
-
-.PHONY : all clean fclean re bonus
+.PHONY: all clean fclean re
