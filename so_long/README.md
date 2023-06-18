@@ -44,15 +44,15 @@
 - To compile the library, go to its path and run:
 
 ```bash
-$ make bonus
+$ make
 
-$ ./so_long_bonus [MAP_FILE.ber]
+$ ./so_long [MAP_FILE.ber]
 ```
 - Only map files with extension `.ber` are available.
-- Map file examples are available in the `map/` directory.
+- Map file examples are available in the `maps/` directory.
 
 ```bash
-$ ./so_long_bonus map/map_sl.ber
+$ ./so_long maps/validMap1.ber
 ```
 - Run the code to use all the features of the game.
 
@@ -68,6 +68,4 @@ $ ./so_long_bonus map/map_sl.ber
 |`S`, `↓`|Move down|
 |`A`, `←`|Move left|
 |`D`, `→`|Move right|
-|`return ⏎`| Start game|
-|`R`|Retry game|
 |`ESC ⎋`|Close the game window|
