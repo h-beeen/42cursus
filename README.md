@@ -48,14 +48,14 @@
 </tr>
 
 <tr>
-<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/so_long/"><img src="https://user-images.githubusercontent.com/112257466/214543593-e3a47ed6-e31f-414e-ade0-fba1cee17371.png" width=130px></td>
+<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/so_long/"><img src="https://github.com/h-beeen/42cursus/assets/112257466/d66ae677-3a70-42ff-81b5-3a31e02af864" width=130px></td>
 <td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/minitalk"><img src="https://github.com/h-beeen/42cursus/assets/112257466/032543c2-3420-43f1-b4c7-4bc4aa661a18" width=130px></a></td>
 <td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/push_swap"><img src="https://user-images.githubusercontent.com/112257466/214543615-812bc032-e1f8-41d5-b4de-c82316447778.png" width=130px></td>
 <td align=center><img src="https://user-images.githubusercontent.com/112257466/215252126-69cb485e-b264-4562-9a27-4a71f27abf86.png" width=130px></td>
 </tr>
 
 <tr>
-<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/so_long/"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/so_long/so_long?logo=c&style=for-the-badge" height=25 width=100><br><img src="https://img.shields.io/badge/0-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darkred" width=100></a></td>
+<td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/so_long/"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/so_long/so_long?logo=c&style=for-the-badge" height=25 width=100><br><img src="https://img.shields.io/badge/100-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darkgreen" width=100></a></td>
 <td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/minitalk"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/minitalk/minitalk?logo=c&style=for-the-badge" height=25 width=100><br><img src="https://img.shields.io/badge/100-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darkgreen" width=100></a></td>
 <td align=center><a href="https://github.com/h-beeen/42cursus/tree/master/push_swap"><img src="https://img.shields.io/github/directory-file-count/h-beeen/42Cursus/push_swap/push_swap?logo=c&style=for-the-badge" height=25 width=100><br><img src="https://img.shields.io/badge/0-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darkred" width=100></td>
 <td align=center><img src="https://img.shields.io/badge/to-do-007396?style=for-the-badge&logo=42&logoColor=white&color=darkred" height=25 width=100><br><img src="https://img.shields.io/badge/0-007396?style=for-the-badge&logo=42&label=Score&logoColor=white&color=darkred" width=100></td>
